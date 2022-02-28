@@ -1,0 +1,702 @@
+page {
+  padding-bottom: 90rpx;
+  height: 65vw;
+  text-align: center;
+}
+
+.OrderedProdDetail {
+  display: flex;
+  position: relative;
+  height: 1200rpx;
+  width: 800rpx;
+}
+.BlankBox{
+  display: flex;
+  position: relative;
+  width: 1655rpx;
+  height: 670rpx;
+  top: 50rpx;
+  left: 60rpx;
+  justify-content: center;
+  align-items: center;
+}
+.OrderedProdPic {
+  display: flex;
+  position: relative;
+  top: -18rpx; 
+  left: -31rpx;
+  width: 561rpx;
+  height: 402rpx;
+  justify-content: center;
+  align-items: center;
+}
+.Line1{
+  display: flex;
+  position: absolute;
+width: 711rpx;
+height: 0rpx;
+left: 26rpx;
+top: 770rpx;
+color: #C0E57B;
+border: 0rpx solid #C0E57B;
+}
+.OrderedProdName {
+  position: absolute;
+  width: 717rpx;
+  height: 162rpx;
+  right: 60rpx;
+  top: 796rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+align-items: center;
+text-transform: lowercase;
+text-align:left;
+color: #1D1D38;
+border-width: 5rpx;
+  display: -webkit-box;  
+  -webkit-line-clamp: 2;  
+  overflow: hidden;  
+  text-overflow: ellipsis;  
+  -webkit-box-orient: vertical;
+  word-break: break-all;  
+}
+
+.OrderedProdDesp {
+  position: relative;
+  width: 80rpx;
+  height: 60rpx;
+  right: 640rpx;
+  top: 900rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30rpx;
+  line-height: 84rpx;
+  align-items: center;
+  text-transform: lowercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #1D1D38;
+  opacity: 0.5;
+}
+
+.OrderedProdPrice {
+  position: relative;
+  width: 80rpx;
+  height: 150rpx;
+  right: 685rpx;
+  top: 937rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48rpx;
+  line-height: 84rpx;
+  align-items: center;
+  text-transform: lowercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #E47F10;
+}
+.Line2{
+  display: flex;
+  position: absolute;
+width: 711rpx;
+height: 0rpx;
+left: 26rpx;
+top: 1083rpx;
+color: #C0E57B;
+border: 0rpx solid #C0E57B;
+}
+.btn {
+  width: 56rpx;
+  height: 48rpx;
+  left: 632rpx;
+  top: 860rpx;
+  background: #C0E57B;
+  border-radius: 26rpx 26rpx 26rpx 0rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.btn_buy {
+  display: flex;
+  position: relative;
+  top: 21rpx;
+  left: 64rpx;
+  background-color: #1D1D38;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 600;
+  width: 196rpx;
+}
+.cart {
+  position: absolute;
+  width: 152rpx;
+  height: 48rpx;
+  left: 632rpx;
+  top: 1174rpx;
+}
+
+.NumBtn {
+  display: flex;
+  position: absolute;
+  width: 196rpx;
+  height: 60rpx;
+  right: 104rpx;
+  top: 956rpx;
+  background: #C0E57B;
+  border-radius: 40rpx 40rpx 40rpx 0rpx;
+}
+.NumAddBtn {
+  display: flex;
+  position: absolute;
+  width: 62rpx;
+  height: 62rpx;
+  right: 80rpx;
+  top: 1080rpx;
+  background: #C0E57B;
+  border-radius: 40rpx 40rpx 40rpx 40rpx;
+  font-size: 40rpx;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+.num_edit_min {
+  display: flex;
+  position: relative;
+  left: 16.68%;
+  right: 16.66%;
+  top: -0.33%;
+  bottom: 16.66%;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.goods_num {
+  display: flex;
+  position: relative;
+  left: 30.61%;
+  right: 31.63%;
+  top: 3.33%;
+  bottom: 3.33%;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+
+}
+
+.num_edit_plus {
+  display: flex;
+  position: relative;
+  left: 41.68%;
+  right: 16.66%;
+  top: -0.33%;
+  bottom: 16.66%;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.RecommandedProds {
+  display: flex;
+  position: relative;
+}
+
+.RelatedProds {
+  display: flex;
+  position: relative;
+  height: 20rpx;
+  left: 280rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #1D1D38;
+}
+.BlankBox1{
+  position: absolute;
+height: 28rpx;
+left: 277rpx;
+right: 243rpx;
+top: 16rpx;
+background: #C0E57B;
+border-radius: 14rpx 14rpx 14rpx 0rpx;
+}
+.btm_tool {
+  border-top: 1rpx solid #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  position: absolute;
+  width: 62rpx;
+  height: 62rpx;
+  left: 529rpx;
+  top: 1029rpx;
+  background: #C0E57B;
+  padding: 20rpx 0;
+  border-radius: 10rpx;
+  text-align: center;
+  margin: 40rpx 10%;
+  background: #C0E57B;
+  border-radius: 40rpx 40rpx 40rpx 40rpx;
+  font-size: 30rpx;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+.drawer_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.drawer_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: 1001;
+  background: #000;
+  overflow: hidden;
+}
+
+.drawer_attr_box {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1002;
+  background: #fff;
+}
+
+.drawer_content {
+  padding: 20rpx 40rpx;
+  height: 470rpx;
+  overflow-y: scroll;
+}
+
+.drawer_title {
+  padding: 20rpx;
+  font: 24rpx " PingFang SC";
+  text-align: center;
+}
+.CartButton {
+  border-bottom: 1px solid #f8f8f8;
+  display: flex;
+  position: relative;
+  width: 119rpx;
+  height: 74rpx;
+  left: 0rpx;
+  background: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);
+  box-shadow: 0rpx 0rpx 60rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 51rpx 51rpx 0rpx;
+}
+.CartDelete {
+  position: relative;
+  left: 500rpx;
+  top: -55rpx;
+  height: 30rpx;
+  width: 30rpx;
+  opacity: 0.7;
+}
+
+.Down {
+  display: flex;
+  position: relative;
+  left: 600rpx;
+  top: -50rpx;
+  width: 56rpx;
+  height: 56rpx;
+  font-size: 40rpx;
+  font-style: normal;
+  font-weight: bold;
+  color: #C0E57B;
+}
+.skus_group {
+  display: flex;
+  position: relative;
+  width: 622rpx;
+  height: 142rpx;
+  left: 40rpx;
+  top: -100rpx;
+}
+.skuOption {
+  position: absolute;
+  left: 0%;
+  right: 87.46%;
+  top: 8.45%;
+  bottom: 60.56%;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+}
+.skuPrice {
+  position: absolute;
+  left: 19.29%;
+  right: 67.2%;
+  top: 8.45%;
+  bottom: 60.56%;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+}
+.skuNum {
+  position: absolute;
+  left: 39.55%;
+  right: 46.95%;
+  top: 8.45%;
+  bottom: 60.56%;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+}
+.SkuNumBtn {
+  display: flex;
+  position: absolute;
+  width: 196rpx;
+  height: 60rpx;
+  left: 440rpx;  
+  background: #C0E57B;
+  border-radius: 40rpx 40rpx 40rpx 0rpx;
+}
+.SkuNumAddBtn {
+  display: flex;
+  position: absolute;
+  width: 62rpx;
+  height: 62rpx;
+  left: 440rpx;  
+  background: #C0E57B;
+  border-radius: 40rpx 40rpx 40rpx 40rpx;
+  font-size: 40rpx;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+.attrs_group{
+  display: flex;
+}
+.cart_content {
+  position: relative;
+  height: 350rpx;
+  overflow-y: scroll;
+}
+
+.CartsGroup {
+  display: flex;
+  height: 140rpx;
+  top: 20rpx;
+}
+
+.cartsProdNome {
+  position: relative;
+  width: 239rpx;
+  height: 80rpx;
+  top: 0rpx;
+  left: 26rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32rpx;
+  line-height: 44rpx;
+  align-items: center;
+  color: #1D1D38;
+  display: -webkit-box;  
+  -webkit-line-clamp: 2;  
+  overflow: hidden;  
+  text-overflow: ellipsis;  
+  -webkit-box-orient: vertical;
+  word-break: break-all;  
+}
+
+.cartsProdQuantity {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #f8f8f8;
+  top: 40rpx;
+  left: 20rpx;
+}
+
+.cartsProdPrice {
+  display: flex;
+  position: relative;
+  left: 78rpx;
+  top: -46rpx;
+  border-bottom: 1px solid #f8f8f8;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: lowercase;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #1D1D38;
+}
+
+.cartsProdTotPrice {
+  position: absolute;
+  left: 448rpx;
+  border-bottom: 1px solid #f8f8f8;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+align-items: center;
+text-align: right;
+text-transform: lowercase;
+color: #E47F10;
+}
+
+.Cart_NumBtn {
+  display: flex;
+  position: relative;
+  width: 164rpx;
+  height: 49rpx;
+  left: 251rpx;
+  top: 0rpx;
+  background: #C0E57B;
+  border-radius: 40rpx 40rpx 40rpx 0rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.cart_num_edit_min {
+  display: flex;
+  position: absolute;
+  left: 19rpx;
+  color: #1D1D38;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+
+.cart_num {
+  display: flex;
+  position: absolute;
+  left: 68rpx;
+  color: #1D1D38;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.cart_num_tool {
+  display: flex;
+  right: -400rpx;
+}
+.cart_num_edit_plus {
+  display: flex;
+  position: absolute;
+  left: 120rpx;
+  color: #1D1D38;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.CartDelete {
+  border-bottom: 1px solid #f8f8f8;
+  display: flex;
+  position: relative;
+  width: 136rpx;
+  height: 58rpx;
+  left: 375rpx;
+  top: -39rpx;
+  background: white;
+  border-radius: 30rpx 30rpx 30rpx 0rpx;
+  border: 2rpx solid #C0E57B;
+}
+.CartDeleteText{
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+width: 78rpx;
+height: 52rpx;
+align-items: center;
+text-align: right;
+justify-content: center;
+align-items: center;
+color: #1D1D38;
+}
+.Up{
+  display: flex;
+  position: relative;
+  left: 600rpx;
+  top: -91rpx;
+  width: 56rpx;
+  height: 56rpx;
+  font-size: 40rpx;
+  font-style: normal;
+  font-weight: bold;
+  color: #C0E57B;
+}
+.ToolBox{
+  border-top: 1rpx solid #ccc;
+  position: fixed;
+  left: -1rpx;
+  top: 1383rpx;
+  bottom: 0;
+  width: 101%;
+  height: 103rpx;
+  background-color: grey;
+  display: flex;
+}
+.btm_tool{
+  position: fixed;
+  z-index: 1002;
+  width: 140rpx;
+  height: 54rpx; 
+  left: 0rpx;
+  bottom: 21rpx;
+  justify-content: center;
+  align-items: center;
+  background:  #C0E57B;
+  box-shadow: 0rpx 0rpx 60rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 51rpx 51rpx 0rpx;
+}
+.cartpic{
+  position: absolute;
+width: 46rpx;
+height: 36rpx;
+left: 45rpx;
+bottom: 10rpx;
+color: #E47F10;
+justify-content: center;
+align-items: center;
+}
+.tool_item{
+  display: flex;
+  position: fixed;
+  z-index: 1001;
+  width: 570rpx;
+  height: 46px;
+  left: 0rpx;
+  bottom: 0rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 60rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 56rpx 0rpx 0rpx;
+}
+.Price {
+  position: absolute;
+width: 122rpx;
+height: 30rpx;
+left: 182rpx;
+bottom: 46rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 36rpx;
+line-height: 50rpx;
+display: flex;
+align-items: center;
+text-transform: lowercase;
+color: #E47F10;
+}
+.DeliveryFee {
+  position: absolute;
+  top: 57rpx;
+  left: 182rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18rpx;
+  line-height: 26rpx;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  opacity: 0.3;
+}
+  .GoToPay {
+    display: flex;
+    position: relative;
+    background-color: #1D1D38;
+    width: 238rpx;
+    left: 543rpx;
+    top: -1rpx;
+  }
+  .btn_buymore{
+    display: flex;
+  position: absolute;
+  width: 215rpx;
+  height: 91rpx;
+  left: 0rpx; 
+  top: 1rpx;
+  background-color: grey;
+  }
+.BuyMore {
+  display: flex;
+  position: absolute;
+  left: 8rpx;
+  top: 18rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  opacity: 0.5;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+  width: 214rpx; 
+  border-radius: 40rpx 0 0 0;
+}
+
+
+

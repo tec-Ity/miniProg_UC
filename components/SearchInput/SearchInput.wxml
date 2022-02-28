@@ -1,0 +1,6 @@
+<view class="search_input">
+   <navigator url="/pages/search/index" open-type="navigate">
+     请填写您的地址
+   </navigator>  
+</view>
+

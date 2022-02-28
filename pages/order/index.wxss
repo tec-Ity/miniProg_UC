@@ -1,0 +1,179 @@
+.page{
+  background: #E5E5E5;
+}
+.OrderCenter{
+  display: flex;
+  position: relative;
+  left: 267rpx;
+  top: 20rpx;
+width: 200rpx;
+height: 200rpx; 
+}
+.ConditionBox{
+  display: flex;
+  position: relative;
+  width: 748rpx;
+  height: 400rpx;
+  top: -179rpx;
+  left: 0rpx;
+}
+.OrderToBePaid{
+  display: flex;
+  position: absolute;
+  width: 122rpx;
+height: 122rpx;
+left: 82rpx;
+top: 71rpx;
+}
+.OrderInProcess{
+  display: flex;
+  position: absolute;
+  width: 122rpx;
+  height: 122rpx;
+  left: 247rpx;
+  top: 71rpx;
+}
+.OrderComplete{
+  display: flex;
+  position: absolute;
+  width: 122rpx;
+  height: 122rpx;
+  left: 418rpx;
+  top: 71rpx;
+}
+.OrderCancel{
+  display: flex;
+  position: absolute;
+  width: 122rpx;
+  height: 122rpx;
+  left: 571rpx;
+  top: 71rpx;
+}
+.OrderProdsBox{
+  position: relative;
+  top: 38rpx;
+  height: calc (100vh - 90rpx);
+}
+.OrderProdsBoxToBePaid{
+  display: flex;
+  position: absolute;
+  width: 98rpx;
+  height: 98rpx;
+  top: -167rpx;
+  left: 75rpx;
+}
+.Date{
+  display: flex;
+  position: absolute;
+  top: -162rpx;
+  left: 196rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  opacity: 0.3;
+}
+.Shop1{
+  display: flex;
+  position: absolute;
+  top: -123rpx;
+  left: 192rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;  
+}
+.orderTotPrice{
+  display: flex;
+  position: relative;
+  top: -164rpx;
+  left: 544rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #E47F10;
+}
+.Line1{
+  display: flex;
+  position: absolute;
+  width: 587rpx;
+  height: 0rpx;
+  left: 72rpx;
+  top: -56rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+.CartsGroup {
+  display: flex;
+  position: relative;
+  left: 15rpx;
+  top: 0rpx;
+  width: 637rpx;
+  height: 40rpx;
+}
+.orderProdNome {
+  width: 353rpx;
+  position: absolute;
+  left: 58rpx;
+  top: -41rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #1D1D38;
+  display: -webkit-box;  
+  -webkit-line-clamp: 1;  
+  overflow: hidden;  
+  text-overflow: ellipsis;  
+  -webkit-box-orient: vertical;
+  word-break: break-all;  
+}
+.orderProdQuantity{
+  display: flex;
+  position: absolute;
+  width: 106rpx;
+  height: 40rpx;
+  left: 429rpx;
+  top: -31rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #1D1D38;  
+}
+.orderProdPrice {
+  display: flex;
+  position: absolute;
+  width: 110rpx;
+  height: 20rpx;
+  left: 550rpx;
+  top: -25rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;  
+}

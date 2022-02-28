@@ -1,0 +1,63 @@
+<image src="/icons/orderStatueUnpaid.svg" class="Unpaid"></image>
+<view class="UnpaidText">待付款</view>
+<!-- <view class="Countdown">01:59:58</view> -->
+<view class="CountingBox">
+        <text class=" Countdown"> {{countdown}}</text>
+ </view>
+
+<view class="OrderDetailBox">
+<image src="/icons/order.svg" class="OrderIcon"></image>
+<text class="OrderText">訂單信息</text>
+<view class="Line1"></view>
+<text class="OrderNumText">訂單號</text>
+<view class="OrderNum">000 0000 000</view>
+<text class="OrderTimeText">下單時間</text>
+<view class="OrderTime">2021.10.8 15:30</view>
+<image class="IconUser" src="/icons/iconUser.svg"></image>
+<view class="DeliveryInfo">配送信息</view>
+<view class="Line2"></view>
+<view class="AddressCh">地址</view>
+<text class="Address">{{paddress}}</text>
+<!-- <view class="Address">Via Gaetano de Castilia 10</view> -->
+<text class="AddressCode">{{paddresscode}}</text>
+<!-- <view class="AddressCode">20124</view> -->
+<view class="ReceiverCh">收件人</view>
+<text class="ReceiverName">{{preceiver}}</text>
+<!-- <view class="ReceiverName">GREENCITY</view>  -->
+<text class="ReceiverNum">{{preceivernum}}</text>
+<!-- <view class="ReceiverNum">0574 22219</view> -->
+<image class="IconUnion" src="/icons/Union.svg"></image>
+<view class="DeliveryTimeCh">配送时间</view>
+<view class="Line3"></view>
+<text class="ChooseDate">{{pchoosetime}}</text>
+<!-- <button class="GoButton" bindtap="click" size="mini" hover-class="true">◀</button> -->
+<!-- <input class="ChooseDate" value="{{inpValue}}" placeholder="请选择" bindinput="handleInput"></input> -->
+</view>
+
+<image src="/icons/iconShop.svg" class="Shop1"></image>
+<view class="ShopCh">一号店</view>
+<view class="Line4"></view>
+<view class="cart_main">
+      <view class="CartsGroup"
+        wx:for="{{order.OrderProds}}"
+        wx:key="*this"
+        data-index="{{index}}"
+      >
+    <view class="orderProdNome">{{item.nome}}</view>
+    <view class="orderProdQuantity">{{item.OrderSkus[0].quantity}}</view> 
+    <view class="orderProdPriceSale">€{{item.OrderSkus[0].price_sale}}×</view> 
+    <view class="orderProdAttrs">{{item.orderSkus[0].attrs}}</view> 
+    <image class="orderProdImg" mode="aspectFit" src="{{dns+(item.Prod.img_urls[0])}}"></image>
+    <view class="orderProdPrice">€{{item.prod_sale}}</view>
+  </view>
+</view>  
+<view class="DeliveryFeeText">配送費</view>
+<view class="DeliveryFee">€00</view>
+<view class="TotPriceText">訂單總計</view>
+<view class="TotalPrice">€{{order.total_sale}}</view>
+
+<view class="footer_tool">
+  <view class="PayLater" bindtap="PayLater">货到付款</view>
+  <view class="PayOnline" bindtap="PayOnline">在线支付</view>
+</view>
+

@@ -1,0 +1,22 @@
+<image class="iconUser" src="/icons/iconUser1.svg"></image>
+<view class="orderNum">NO.001001001</view>
+
+<view class="container">
+    <view class='name'>
+     <input placeholder='收貨姓名' value='{{name}}' bindinput='i_name'></input>
+    </view> 
+   
+     <view class='phone'>
+     <input placeholder='收貨電話' value='{{sex}}' bindinput='i_phone'></input>
+    </view> 
+ 
+        <view class='address'>
+     <input placeholder='收貨地址' value='{{age}}' bindinput='i_address'></input>
+    </view>
+
+    <view class='addressdetail'>
+     <input placeholder='樓道，門牌號，收貨提示...' value='{{age}}' bindinput='i_addressdetail'></input>
+    </view>
+ 
+    <button class="confirm" bindtap="go" size="default">確認修改</button> 
+</view>

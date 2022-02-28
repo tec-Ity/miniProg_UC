@@ -1,0 +1,144 @@
+<view class="UNIONCITY">
+<view class="nav_Top"> 
+    <navigation-bar 
+  bindgetBarInfo="getBarInfo"
+  homeImage="{{homeImage}}"
+  title="{{title}}" 
+  background="{{background}}" 
+  color="{{color}}"
+  show="{{show}}"
+  loading="{{loading}}"
+  border="{{border}}"
+  left="{{left}}" 
+  center="{{center}}">
+    <view slot="left">
+      <view class="square">左侧slot</view>
+    </view>
+    <view slot="center">
+      <view class="square">中间slot</view>
+    </view>
+</navigation-bar>
+<image src="/icons/location.svg" class="Location"></image>
+<image src="/icons/logo.svg" class="Logo"></image>
+    <SearchInput></SearchInput>
+    </view>
+
+    <view class="main">
+  <view class="main-location">经度：{{locationInfo.longitude}}  纬度：{{locationInfo.latitude}}</view>
+  <button bindtap="bindAuthLocation" class="main-btn">授权位置</button>
+	<view class='context-layer' wx:if="{{isShowLocationLayer}}"></view>
+	<view class='mask-layer' wx:if="{{isShowLocationLayer}}">
+		<view class="box-content">
+			<view class="content-title">"绿城："需要获取你的地理位置</view>
+			<view class="content-txt">你的位置信息将用于位置显示</view>
+		</view>
+		<view class="box-bottom">
+			<button class="btn-conmon btn-cancel" bindtap="bindCancelLocation">取消</button>
+			<button class="btn-conmon btn-confirm" bindtap="bindConfirmLocation">确定</button>
+		</view>
+	</view> 
+</view> 
+<image src="/icons/bgTop (1).svg" class="bgTop"></image>
+    <view class="index_swiper">
+        <swiper autoplay indicator-dots circular>
+            <swiper-item
+            wx:for="{{swiperList}}"
+            wx:key="goods_id"
+             >
+                <navigator>
+                    <image mode="widthFix" src="{{item.image_src}}"></image>
+                </navigator>      
+            </swiper-item>  
+        </swiper>  
+    </view>
+    <view class="WelcomeTitle">
+    <view class="BlankBox"></view>
+    <view class="title" >欢迎进店</view>
+    <view class="subtitle">我们的店面贼多</view>
+  </view>
+<view class="SwiperCitas">
+  <scroll-view scroll-x="true">
+    <view class="index_cita">
+            <navigator
+            wx:for="{{CitaList}}"
+            wx:key="name"
+            url="/pages/category/index" 
+            >
+        <image mode="widthFix" src="{{item.img_url&&dns+item.img_url}}"></image>
+        <view class="cityName">{{item.nome}}</view>
+              </navigator>
+    </view>
+</scroll-view>
+</view>
+
+<view class="FestBox">
+   <view class="h3">节·日·特·供</view>
+   <view class="EnterProdSale1">进入节日特供</view>
+   <view class="EnterProdSale2"> 产品专区 >>></view>
+    <view class="BlankBox1"></view>
+  </view>
+<view class="btn_Suspension" bindtap="btn_Suspension_click" catchtouchmove="buttonMove" bindtouchstart="buttonStart" bindtouchend="buttonEnd" style="top:{{buttonTop}}px;left:{{buttonLeft}}px;">
+    <image class="Suspension_logo" src="/icons/cart.svg"></image>
+    <view wx:if="{{corner_data==0}}"></view>
+    <view wx:else>
+      <view class="cornorMark">
+        <text>{{corner_data}}</text>
+      </view>
+    </view>
+  </view>
+
+  <navigator open-type="switchTab" url="/pages/cart/index"  class="tool_item">
+    </navigator>
+
+   <view class="festival"></view>
+                 <image class="home_pic_activity" mode="widthFix" src="../../icons/activitySmall.png" />
+                 <image class="home_ads1"  mode="widthFix" src="../../icons/广告1.png" />
+                 <image class="home_ads2" mode="widthFix" src="../../icons/广告2.png" />
+                 <image class="home_ads3" mode="widthFix" src="../../icons/广告3.png" />
+                 <image class="home_ads4" mode="widthFix" src="../../icons/广告4.png" />
+    <view class="CategoryBox">
+      <view class="BlankBox5"></view>
+    <view class="h4">货品丰富</view>
+    <view class="h5">我们的产品贼多</view>
+    <view class="sku"></view>
+             <navigator>
+                 <image class="cate1" mode="widthFix" src="../../icons/categ1%20(2).svg" />
+                 <image class="cate2" mode="widthFix" src="../../icons/categ2%20(1).svg" />
+                 <image class="cate3" mode="widthFix" src="../../icons/categ3%20(1).svg" />
+                 <image class="cate4" mode="widthFix" src="../../icons/categ4%20(1).svg" />
+                 <image class="cate5" mode="widthFix" src="../../icons/categ5%20(1).svg" />
+                 <image class="cate6" mode="widthFix" src="../../icons/categ6%20(1).svg" />
+                 <image class="cate7" mode="widthFix" src="../../icons/categ7%20(2).svg" />
+             </navigator>
+            </view>
+<view class="GCBox">
+  <view class="BlankBox4"></view>
+    <view class="h6">绿城超市</view>
+    <view class="h7">了解我们 —></view>
+
+   <swiper class="swiperPicsBox" autoplay indicator-dots circular>
+    <swiper-item >
+      <image class="swiperPic1" mode="widthFix" src="../../icons/轮播图1.png"></image>
+      <image class="swiperPic2" mode="widthFix" src="../../icons/轮播图2.png"></image>
+      <image class="swiperPic3" mode="widthFix" src="../../icons/轮播图3.png"></image>
+    </swiper-item>  
+    </swiper>
+  </view>
+
+  <view class="JoinUsBox">
+    <view class="BlankBox3"></view>
+    <view class="h8">加入我们</view>
+    <view class="h9">加盟绿城</view>
+  </view>
+    <image class="shakehand" mode="widthFix" src="../../icons/shakehand.svg"></image>
+   <view class="AppBox">
+   <view class="BlankBox2"></view>
+    <view class="h10">下载APP↗</view>
+    <view class="h11">一站式送货到家</view>
+  </view>
+    <image class="AppStore" mode="widthFix" src="../../icons/AppStoreBadge.svg"></image>
+    <image class="Google" mode="widthFix" src="../../icons/Google Play Badge.svg"></image>
+    <!-- <image class="appMockup" mode="widthFix" src="../../icons/appMockup.svg"></image> -->
+    <image mode="aspectFit" src="../../icons/bgBottom.svg" class="bgBottom"></image>
+</view>
+  

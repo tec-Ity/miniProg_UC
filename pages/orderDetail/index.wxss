@@ -1,0 +1,579 @@
+page {
+    padding-bottom: 90rpx;
+}
+.Unpaid{
+    position: absolute;
+width: 200rpx;
+height: 200rpx;
+left: 278rpx;
+top: -29rpx;
+}
+.UnpaidText{
+    position: absolute;
+width: 116rpx;
+height: 52rpx;
+left: 324rpx;
+top: 108rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 32rpx;
+line-height: 44rpx;
+display: flex;
+align-items: center;
+text-align: center;
+color: #1D1D38;
+}
+.Countdown{
+  position: absolute;
+width: 126rpx;
+height: 44rpx;
+left: 310rpx;
+top: 158rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #E47F10;
+}
+.OrderDetailBox{
+  display: flex;
+  position: relative;
+  top: 56rpx;
+  width: 748rpx;
+}
+.OrderIcon{
+  display: flex;
+  position: absolute;
+  width: 26rpx;
+  height: 40rpx;
+  top: 177rpx;
+  left: 40rpx;
+}
+.OrderText{
+  display: flex;
+  position: absolute;
+  width: 131rpx;
+  height: 32rpx;
+  left: 90rpx;
+  top: 182rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #1D1D38;
+}
+.Line1{
+  display: flex;
+  position: absolute;
+  width: 486rpx;
+  height: 0rpx;
+  left: 224rpx;
+  top: 199rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+.OrderNumText{
+  display: flex;
+  position: absolute;
+  left: 88rpx;
+  top: 238rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  opacity: 0.5;
+}
+.OrderNum{
+  display: flex;
+  position: absolute;
+  left: 275rpx;
+  top: 239rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;  
+}
+.OrderTimeText{
+  display: flex;
+  position: absolute;
+  left: 82rpx;
+  top: 292rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  opacity: 0.5;
+}
+.OrderTime{
+  display: flex;
+  position: absolute;
+  left: 273rpx;
+  top: 292rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;  
+}
+.IconUser{
+  display: flex;
+  position: absolute;
+  width: 26rpx;
+  height: 40rpx;
+  top: 356rpx;
+  left: 36rpx;
+}
+.DeliveryInfo{
+position: absolute;
+width: 134rpx;
+height: 32rpx;
+left: 86rpx;
+top: 363rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #1D1D38;
+}
+.Line2{
+  display: flex;
+  position: absolute;
+  width: 486rpx;
+  height: 0rpx;
+  left: 227rpx;
+  top: 375rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+.AddressCh{
+position: absolute;
+width: 108rpx;
+height: 28rpx;
+left: 83rpx;
+top: 423rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+opacity: 0.5;
+}
+.Address{
+position: absolute;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+word-break: break-all;
+width: 352rpx;
+height: 40rpx;
+left: 207rpx;
+top: 415rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+align-items: center;
+color: #1D1D38;
+}
+.AddressCode{
+position: absolute;
+width: 156rpx;
+height: 40rpx;
+left: 568rpx;
+top: 213px;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+.ReceiverCh{
+position: absolute;
+width: 108rpx;
+height: 40rpx;
+left: 82rpx;
+top: 468rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+opacity: 0.5;
+}
+.ReceiverName{
+position: absolute;
+width: 158rpx;
+height: 38rpx;
+right: 384rpx;
+top: 472rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+.ReceiverNum{
+position: absolute;
+width: 190rpx;
+height: 36rpx;
+right: 68rpx;
+top: 473rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+.IconUnion{
+  display: flex;
+  position: absolute;
+  width: 42rpx;
+  height: 40rpx;
+  top: 528rpx;
+  left: 28rpx;
+}
+.DeliveryTimeCh{
+position: absolute;
+width: 135rpx;
+height: 32rpx;
+left: 90rpx;
+top: 529rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #1D1D38;
+}
+.Line3{
+  display: flex;
+  position: absolute;
+  width: 481rpx;
+  height: 0rpx;
+  left: 224rpx;
+  top: 546rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+.ChooseDate{
+position: absolute;
+width: 488rpx;
+height: 28rpx;
+left: 89rpx;
+top: 594rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+
+.Shop1{
+  display: flex;
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  top: 731rpx;
+  left: 29rpx;
+}
+.ShopCh{
+position: absolute;
+width: 108rpx;
+height: 36rpx;
+left: 90rpx;
+top: 731rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #1D1D38;
+} 
+.Line4{
+  display: flex;
+  position: absolute;
+  width: 504rpx;
+  height: 0rpx;
+  left: 195rpx;
+  top: 749rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+.cart_main {
+  position: relative;
+  top: 811rpx;
+  height: calc (100vh - 90rpx);
+}
+
+.CartsGroup {
+  display: flex;
+  position: relative;
+  left: 15rpx;
+  top: 0rpx;
+  width: 671rpx;
+  height: 88rpx;
+}
+
+.orderProdNome {
+  width: 213rpx;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  left: 179rpx;
+  top: 0rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #1D1D38;
+}
+.orderProdQuantity{
+  display: flex;
+  position: absolute;
+  left: 502rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+.orderProdPriceSale{
+  display: flex;
+  position: absolute;
+  left: 398rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+.orderProdImg {
+  display: flex;
+  position: absolute;
+  width: 90rpx;
+  height: 90rpx;
+  top: -14rpx;
+  left: 45rpx;
+}
+.orderProdPrice {
+position: relative;
+left: 595rpx;
+top: -27rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #E47F10;
+}
+.orderProdAttrs {
+position: relative;
+left: -189rpx;
+top: -4rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 36rpx;
+line-height: 50rpx;
+display: flex;
+align-items: center;
+text-transform: lowercase;
+color: #1D1D38;
+}
+
+.orderProdTotPrice {
+  display: flex;
+  position: absolute;
+  left: 587rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #E47F10;  
+}
+/* .GoButton{
+  display: flex;
+  position: relative;
+  width: 60rpx;
+  height: 60rpx;
+  top: -13rpx;
+  left: 237rpx;
+  background-color: #C0E57B;
+  border-radius: 30rpx;
+} */
+.DeliveryFeeText{
+    display: flex;
+    position: relative;
+  left: 28rpx;
+  top: 840rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #1D1D38;
+  border-bottom: 1rpx solid #ccc;
+  } 
+  .DeliveryFee{
+    display: flex;
+    position: relative;
+  left: 604rpx;
+  top: 799rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-align: right;
+  color: #1D1D38;
+  }
+  .TotPriceText{
+    display: flex;
+    position: relative;
+  left: 26rpx;
+  top: 820rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #1D1D38;
+  }
+  .TotalPrice{
+    display: flex;
+    position: relative;
+    left: 580rpx;
+    top: 778rpx;
+  font-family: PingFang SC; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  align-items: center;
+  text-align: right;
+  color: #E47F10;
+  }
+.footer_tool {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+}
+.footer_tool .total_price_wrap {
+  flex: 5;
+  padding-right: 15rpx;
+  text-align: right;
+} 
+.footer_tool .total_price_wrap .total_price .total_price_text {
+  color: var(--themeColor);
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.PayLater {
+  font-size: 32rpx;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+height: 112rpx;
+width: 828rpx;
+left: 0rpx;
+background: #C0E57B;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+border-radius: 0rpx;
+}
+.PayOnline{
+    font-size: 32rpx;
+    font-weight: 600; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  height: 112rpx;
+  width: 828rpx;
+  left: 0rpx;
+  background: #C0E57B;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx;
+}

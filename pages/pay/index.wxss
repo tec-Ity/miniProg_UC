@@ -1,0 +1,557 @@
+page {
+  padding-bottom: 90rpx;
+}
+
+.DeliveryInfoBox {
+  display: flex;
+  position: relative;
+  top: 56rpx;
+  width: 748rpx;
+}
+
+.MenuUser2 {
+  display: flex;
+  position: absolute;
+  width: 26rpx;
+  height: 40rpx;
+  top: 0rpx;
+  left: 40rpx;
+}
+
+.DeliveryInfo {
+  position: absolute;
+  width: 131rpx;
+  height: 32rpx;
+  left: 90rpx;
+  top: 5rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #1D1D38;
+}
+
+.Line1 {
+  display: flex;
+  position: absolute;
+  width: 421rpx;
+  height: 0rpx;
+  left: 218rpx;
+  top: 19rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+
+.NextLevel1 {
+  display: flex;
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  left: 20rpx;
+  top: 0rpx;
+}
+
+.AddressCh {
+  position: absolute;
+  width: 300rpx;
+  height: 28rpx;
+  left: 89rpx;
+  top: 72rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  opacity: 0.5;
+}
+.AddressText{
+  /* display: flex; */
+  position: relative;
+  display: -webkit-box;  
+  -webkit-line-clamp: 1;  
+  overflow: hidden;  
+  text-overflow: ellipsis;  
+  -webkit-box-orient: vertical; 
+  word-break: break-all;  
+  left: 0rpx;
+  top: 0rpx;
+  width: 229rpx;
+  height: 30rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* display: flex; */
+align-items: center;
+color: #1D1D38;
+opacity: 0.5;
+}
+.Address {
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  width: 306rpx;
+  height: 40rpx;
+  left: 231rpx;
+  top: 67rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #1D1D38;
+}
+
+.AddressCode {
+  position: absolute;
+  width: 260rpx;
+  height: 40rpx;
+  left: 441rpx;
+  top: 36px;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+}
+.AddressCodeText{
+  display: flex;
+  position: relative;
+  left: 16rpx;
+  top: 0rpx;
+  width: 240rpx;
+  height: 30rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+opacity: 0.5;
+}
+.ReceiverCh {
+  position: absolute;
+  width: 477rpx;
+  height: 40rpx;
+  left: 90rpx;
+  top: 118rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  opacity: 0.5;
+}
+
+.ReceiverName {
+  position: absolute;
+  width: 158rpx;
+  height: 38rpx;
+  right: 353rpx;
+  top: 121rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+}
+
+.ReceiverNum {
+  position: absolute;
+  width: 261rpx;
+  height: 36rpx; 
+  right: 34rpx;
+  top: 124rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+}
+.PhoneText{
+  display: flex;
+  position: relative;
+  left: 0rpx;
+  top: 0rpx;
+  width: 189rpx;
+  height: 30rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+opacity: 0.5;
+}
+.Union {
+  display: flex;
+  position: absolute;
+  width: 42rpx;
+  height: 40rpx;
+  top: 178rpx;
+  left: 31rpx;
+}
+
+.Line2 {
+  display: flex;
+  position: absolute;
+  width: 479rpx;
+  height: 0rpx;
+  left: 221rpx;
+  top: 201rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+
+.NextLevel2 {
+  display: flex;
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  left: 20rpx;
+  top: 0rpx;
+}
+
+.DeliveryTimeCh {
+  position: absolute;
+  width: 138rpx;
+  height: 32rpx;
+  left: 90rpx;
+  top: 189rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #1D1D38;
+}
+.ChooseDateBox{
+  position: absolute;
+  width: 488rpx;
+  height: 28rpx;
+  left: 92rpx;
+  top: 254rpx;
+}
+.ChooseDate {
+  position: absolute;
+  width: 488rpx;
+  height: 28rpx;
+  left: 48rpx;
+  top: 129rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  opacity: 0.5;
+}
+.GoButton{
+  display: flex;
+  position: relative;
+  width: 60rpx;
+  height: 60rpx;
+  top: -13rpx;
+  left: 292rpx;
+  background-color: #C0E57B;
+  border-radius: 30rpx;
+}
+
+.Shop1 {
+  display: flex;
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  top: 385rpx;
+  left: 34rpx;
+}
+
+.ShopCh {
+  position: absolute;
+  width: 108rpx;
+  height: 36rpx;
+  left: 94rpx;
+  top: 389rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #1D1D38;
+}
+
+.Line3 {
+  display: flex;
+  position: absolute;
+  width: 503rpx;
+  height: 0rpx;
+  left: 195rpx;
+  top: 402rpx;
+  color: #C0E57B;
+  opacity: 0.5;
+  border: 0.5rpx solid #C0E57B;
+}
+
+.cart_main {
+  position: relative;
+  top: 476rpx;
+  height: calc (100vh - 90rpx);
+}
+
+.CartsGroup {
+  display: flex;
+  position: relative;
+  left: 15rpx;
+  top: 0rpx;
+  width: 671rpx;
+  height: 88rpx;
+  margin-bottom: 10rpx;
+}
+
+.orderProdNome {
+  width: 213rpx;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  left: 208rpx;
+  top: 0rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #1D1D38;
+}
+
+.orderProdImg {
+  display: flex;
+  position: absolute;
+  width: 90rpx;
+  height: 90rpx;
+  top: -14rpx;
+  left: 64rpx;
+
+}
+
+.orderProdQuantity {
+  display: flex;
+  position: absolute;
+  left: 544rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+
+.orderProdPrice {
+  display: flex;
+  position: absolute;
+  left: 438rpx;
+  font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #1D1D38;
+}
+
+.orderProdTotPrice {
+  display: flex;
+  position: absolute;
+  left: 587rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #E47F10;  
+}
+
+.Line4
+ {
+  display: flex;
+  position: absolute;
+  width: 652rpx;
+  height: 0rpx;
+  left: 44rpx;
+  top: 1033rpx;
+  border: 0.5rpx solid #C0E57B;
+}
+
+.Line5
+ {
+  display: flex;
+  position: absolute;
+  width: 652rpx;
+  height: 0rpx;
+  left: 44rpx;
+  top: 1116rpx;
+  border: 0.5rpx solid #C0E57B;
+}
+.DeliveryFeeText {
+  display: flex;
+  position: relative;
+  width: 664rpx;
+  left: 44rpx;
+  top: 521rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  border: 2rpx;
+  /* border-top: 1rpx solid #ccc; */
+  margin-top: 10rpx;
+}
+
+.DeliveryFee {
+  display: flex;
+  position: relative;
+  left: 560rpx;
+  top: 477rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #1D1D38;
+}
+
+.TotPriceText {
+  display: flex;
+  position: relative;
+  width: 664rpx;
+  left: 40rpx;
+  top: 524rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+  /* border-top: 1rpx solid #ccc; */
+}
+
+.TotalPrice {
+  display: flex;
+  position: relative;
+  left: 554rpx;
+  top: 476rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #E47F10;
+}
+
+.footer_tool {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+}
+
+.footer_tool .total_price_wrap {
+  flex: 5;
+  padding-right: 15rpx;
+  text-align: right;
+}
+
+.footer_tool .total_price_wrap .total_price .total_price_text {
+  color: var(--themeColor);
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.ConfirmOrder {
+  font-size: 32rpx;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 112rpx;
+  width: 828rpx;
+  left: 0rpx;
+  background: #C0E57B;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 28px 0px 0px;
+}
+.PlzChooseTime{
+  font-size: 32rpx;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 112rpx;
+  width: 828rpx;
+  left: 0rpx;
+  background: grey;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 28px 0px 0px;
+}

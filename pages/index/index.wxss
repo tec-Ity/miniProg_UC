@@ -1,0 +1,683 @@
+.page{
+  display: flex;
+  position: relative;
+}
+.nav_Top{
+  position: fixed;
+  z-index: 99;
+  width: 797rpx;
+  height: 290rpx;
+  background: #C0E57B;
+}
+.navigation-bar {
+  position: relative;
+}
+.Location{
+  position: absolute;
+width: 230rpx;
+height: 58rpx;
+left: -48rpx;
+top: 95rpx;
+}
+.Logo{
+  position: absolute;
+width: 230rpx;
+height: 58rpx;
+left: calc(50% - 115px/2 - 0.5px);
+top: 96rpx;
+}
+.bgTop{
+  position: absolute;
+height: 900rpx;
+left: 0.7rpx;
+right: 0rpx;
+top: 230rpx;
+background: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);
+opacity: 0.2;
+}
+.index_swiper swiper {
+  width: 721rpx;
+  height: 289rpx;
+border-radius: 90rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  position: relative;
+  left: 19rpx;
+  top: 312rpx;
+}
+.index_swiper swiper image {
+  width: 750rpx;
+  height: 300rpx;
+left: 30rpx;
+right: 50rpx;
+top: 348rpx;
+  border-radius: 90rpx 0rpx 0rpx 0rpx;
+}
+.WelcomeTitle{
+  display: flex;
+  position: relative;
+  top: 44rpx;
+}
+.BlankBox{
+  position: absolute;
+height: 28rpx;
+left: 206rpx;
+right: 243rpx;
+top: 336rpx;
+background: #C0E57B;
+border-radius: 14rpx 14rpx 14rpx 0rpx;
+}
+.title {
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 28px;
+color: #1D1D38;
+height: 100rpx;
+display: flex; 
+position: absolute;
+top: 279rpx;
+left: 238rpx;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.subtitle {
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+font-size: 16px;
+line-height: 22px;
+color: #1D1D38;
+display: flex; 
+position: absolute;
+top: 367rpx;
+left: 238rpx;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.SwiperCitas{
+  display: flex;
+  position: relative;
+  width: 748rpx;
+height: 170rpx;
+left: -9rpx;
+top: 472rpx;
+overflow-x: scroll;
+}
+.index_cita{
+  display: flex;
+  position: absolute;
+  top: -37rpx;
+}
+.index_cita navigator{
+      padding: 20rpx;
+      margin: 0rpx;
+      flex: 1;
+      display: flex;
+      display: -webkit-box;
+      position: relative;
+      top: 20rpx; 
+      flex-direction: column;
+}
+.index_cita navigator image{
+          height: 93px;
+          width:280rpx; 
+          margin: 0 20rpx;
+          left: 0rpx;
+          top: 0rpx;
+          border: 2px solid #C0E57B;
+          background: rgba(29, 29, 56, 0.2);
+box-shadow: 0px 0px 16.8693px rgba(0, 0, 0, 0.1);
+border-radius: 11.2462px 0px;
+} 
+.cityName
+{
+  color: #fff;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 11.2462px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+position: absolute;
+left: 130rpx;
+top: 88rpx;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content{
+    display: flex;
+    position: absolute;
+}
+.content .t1{
+    display: flex;
+    position: absolute;
+}
+.FestBox{
+  display: flex;
+  position: relative;
+top: 80rpx;
+}
+.h3{
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 18.476px;
+line-height: 26px;
+color: #1D1D38;
+display: flex; 
+position: relative;
+top: 594rpx;
+left: 286rpx;
+z-index: 1005;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.EnterProdSale1{
+  position: absolute;
+width: 228px;
+height: 96rpx;
+top: 944rpx;
+left: 25rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 32rpx;
+line-height: 44rpx;
+display: flex;
+align-items: center;
+color: #91E8B3;
+}
+.EnterProdSale2{
+  position: absolute;
+width: 228px;
+height: 96rpx;
+top: 1005rpx;
+left: 25rpx;
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 32rpx;
+line-height: 44rpx;
+display: flex;
+align-items: center;
+color: #91E8B3;
+}
+.BlankBox1{
+  display: flex;
+  position: absolute;
+width: 460rpx;
+height: 122rpx;
+left: 153rpx;
+top: 550rpx;
+z-index: 1002;
+background:  #C0E57B;
+border-radius: 61rpx 0rpx 61rpx 61rpx;
+transform: rotate(-180deg);
+}
+ .btn_Suspension{
+   position: fixed;
+   height: 100rpx;
+   width: 100rpx;
+   background-color: #1D1D38;
+   border-radius: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 99999;
+   box-shadow: 1px 0px 1px 1px #1D1D38;
+ }
+ .Suspension_logo{
+   position:absolute;
+   justify-content: center;
+   align-items: center;
+   height:50%;
+   width:50%;
+   left:23%;
+   top:27%
+ }
+ .cornorMark{
+   position:absolute;
+   background: rgb(242, 109, 38);
+   border:1px solid rgb(242, 109, 38);
+   border-radius: 100px;
+   width:30rpx;
+   height:30rpx;
+   top:-17rpx;
+   right:3rpx;
+   color:#fff;
+   font-size: 12px;
+   text-align: center;
+ }
+ .cornorMark text{
+   position:absolute;
+   width:100%;
+   left:0%;
+   text-align: center;
+   top:-1px;
+ }
+.home_pic_activity  {
+ display: flex;
+  width: 100%;
+  height: 240rpx;
+  padding-left: 200rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  position: relative;
+  top: 729rpx;
+  left: 20rpx;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.home_ads1{
+display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ top: 728rpx;
+ width: 721rpx;
+ height: 201rpx;
+}
+.home_ads2{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 800rpx;
+ position: relative;
+ top: 622rpx;
+ width: 721rpx;
+ height: 201rpx;
+}
+.home_ads3{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 900rpx;
+ position: relative;
+ top: 515rpx;
+ width: 721rpx;
+ height: 201rpx;
+}
+.home_ads4{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 800rpx;
+ position: relative; 
+ top: 398rpx;
+ width: 721rpx;
+ height: 201rpx;
+}
+.CategoryBox{
+  display: flex;
+  position: relative;
+  top: 20rpx;
+}
+.BlankBox5{
+  position: absolute;
+  height: 28rpx;
+  left: 186rpx;
+  right: 243rpx;
+  top: 328rpx;
+  background: #C0E57B;
+  border-radius: 14rpx 14rpx 14rpx 0rpx;
+}
+.h4 {
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  color: #1D1D38;  
+    height: 100rpx;
+    flex-direction: column;
+    top: 282rpx;
+    left: 231rpx;
+    }
+    .h5 {
+      font-family: PingFang SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      display: flex;
+  position: absolute;
+      align-items: center;
+      text-align: center; 
+      color: #1D1D38;      
+      top: 382rpx;
+      left: 239rpx;
+    }
+    .cate1{
+      display: flex;
+      position: relative;
+      left: 7rpx;
+      top: 422rpx;
+      width: 193rpx;
+      height: 193rpx;
+      justify-content: center;
+      align-items: center;
+    }
+    .cate2{
+      display: flex;
+      position: relative;
+      left: 185rpx;
+      top: 230rpx;
+      width: 193rpx;
+      height: 193rpx;
+      justify-content: center;
+      align-items: center;
+    }
+    .cate3{
+      display: flex;
+      position: relative;
+      left: 371rpx;
+      top: 38rpx;
+      width: 193rpx;
+      height: 193rpx;
+      justify-content: center;
+      align-items: center;
+    }
+    .cate4{
+      display: flex;
+      position: relative;
+      left: 548rpx;
+      top:-156rpx;
+      width: 193rpx;
+      height: 193rpx;
+      justify-content: center;
+      align-items: center;
+    }
+    .cate5{
+      display: flex;
+      position: relative;
+      left: 11rpx;
+      top:-164rpx;
+      width: 193rpx;
+      height: 193rpx;
+      justify-content: center;
+      align-items: center;
+    }
+    .cate6{
+      display: flex;
+      position: relative;
+      left: 192rpx;
+      top:-355rpx;
+      width: 193rpx;
+      height: 193rpx;
+      justify-content: center;
+      align-items: center;
+    }
+    .cate7{
+      display: flex;
+      position: relative;
+      left: 369rpx;
+      top:-549rpx;
+      width: 193rpx;
+      height: 193rpx;
+      justify-content: center;
+      align-items: center;
+    }
+    .GCBox{
+      /* display: flex; */
+      position: relative;
+      top: 20rpx;
+    }
+    .BlankBox4{
+      position: absolute;
+        height: 28rpx;
+        left: 206rpx;
+        right: 243rpx;
+        top: -487rpx;
+        background: #C0E57B;
+        border-radius: 14rpx 14rpx 14rpx 0rpx;
+    }
+    .h6 {
+      font-family: PingFang SC;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 42px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #1D1D38;
+        height: 100rpx;
+        display: flex; 
+        position: relative;
+        top: -546rpx;
+        left: 34rpx;
+        width: 346px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        }
+        .h7 {
+          font-family: PingFang SC;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          display: flex;
+          align-items: center; 
+          text-align: center;
+          color: #1D1D38;          
+        display: flex;
+        position: relative; 
+        width: 297px;
+        top: -522rpx;
+            left: 71rpx;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        .swiperPicsBox
+        {
+          display: flex;
+          position: absolute;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+width: 157%;
+height: 141.22px;
+left: 81px;
+top: -188px;
+overflow-x: scroll;
+        }
+        .swiperPic1
+        {
+          display: flex;
+          position: absolute;
+          width: 262px;
+          height: 141px;
+          left: 0rpx;
+          top: 0rpx;
+        }
+        .swiperPic2
+        {
+          width: 262px;
+          height: 141px;
+          left: 338.3px;
+top: 0px;
+        }
+        .swiperPic3
+        {
+          width: 262px; 
+          height: 141px;
+          left: -226.57px;
+          top: 0px;          
+        }
+       .JoinUsBox{
+        display: flex;
+        position: relative;
+        top: 20rpx;
+       }
+       .BlankBox3{
+        position: absolute;
+        height: 28rpx;
+        left: 206rpx;
+        right: 243rpx;
+        top: -175rpx;
+        background: #C0E57B;
+        border-radius: 14rpx 14rpx 14rpx 0rpx;
+       }
+        .h8 {
+          font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #1D1D38;
+            height: 100rpx;
+            display: flex; 
+            position: relative;
+            top: -233rpx;
+            left: 241rpx;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            }
+            .h9 {
+              font-family: PingFang SC;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 22px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              color: #1D1D38;              
+            display: flex; 
+            position: relative;
+            top: -162rpx;
+            left: 67rpx;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+            .shakehand{
+              display: flex;
+              position: relative;
+              text-align: center;
+              top:-134rpx;
+              background:  #C0E57B;
+              box-shadow: 0rpx 0rpx 60rpx rgba(0, 0, 0, 0.1);
+              width: 240rpx;
+              height: 280rpx;
+              left: 233rpx;
+              border-radius: 50%;
+              justify-content: center;
+              align-items: center;
+            }
+            .AppBox{
+              display: flex;
+              position: relative;
+              top: 20rpx;
+            }
+            .BlankBox2{
+              position: absolute;
+              height: 28rpx;
+              left: 206rpx;
+              right: 243rpx;
+              top: -74rpx;
+              background: #C0E57B;
+              border-radius: 14rpx 14rpx 14rpx 0rpx;
+            }
+            .h10 {
+                font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #1D1D38;
+                height: 100rpx;
+                display: flex; 
+                position: absolute;
+                top: -134rpx;
+                left: 222rpx;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                }
+                .h11 {
+                  font-family: PingFang SC;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 16px;
+                  line-height: 22px;
+                  display: flex;
+                  align-items: center;
+                  text-align: center;
+                  color: #1D1D38;                  
+                display: flex; 
+                position: absolute;
+                top: -38rpx;
+                left: 243rpx;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                }
+                .AppStore{
+                  width: 350rpx;
+                  height: 110rpx;
+                  position: relative;
+                  top: 572rpx;
+                  left: 20rpx;
+                }
+                .Google{
+                  width: 350rpx;
+                  height: 110rpx;
+                  position: relative;
+                  top: 572rpx;
+                  left: 20rpx;
+                }
+                .appMockup{
+                  display: flex;
+                  left: -182rpx;
+                  width: 988rpx;
+                  height: 342px;
+                  padding-left: 240rpx;
+                  font-size: 32rpx;
+                  font-weight: 600;
+                  position: relative;
+                  top: -350rpx;
+                  justify-content: center;
+                  align-items: center;
+                  box-sizing: border-box;
+                }
+.bgBottom{
+  display: flex;
+  position: absolute;
+height: 809rpx;
+left: 828rpx;
+right: -828rpx;
+top: -700rpx;
+background: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);
+opacity: 0.2;
+transform: rotate(-180deg);
+} 

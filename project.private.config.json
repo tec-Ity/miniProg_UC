@@ -1,0 +1,84 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/shop/index",
+                    "pathName": "pages/shop/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/pay/index",
+                    "pathName": "pages/pay/index",
+                    "query": "shopid=60d0cb782b0b2364a77a34a2",
+                    "scene": null
+                },
+                {
+                    "name": "pages/orderDetail/index",
+                    "pathName": "pages/orderDetail/index",
+                    "query": "orderId=61b8bc220306132b267ed7d4",
+                    "scene": null
+                },
+                {
+                    "name": "pages/order/index",
+                    "pathName": "pages/order/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/search/index",
+                    "pathName": "pages/search/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/pay/index",
+                    "pathName": "pages/pay/index",
+                    "query": "shopid=60d0cb782b0b2364a77a34a2",
+                    "scene": null
+                },
+                {
+                    "name": "pages/orderDetail/index",
+                    "pathName": "pages/orderDetail/index",
+                    "query": "orderId=61c1aa83d8bc363d1cafebff",
+                    "scene": null
+                },
+                {
+                    "name": "pages/order/index",
+                    "pathName": "pages/order/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/user/index",
+                    "pathName": "pages/user/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/userCard/index",
+                    "pathName": "pages/userCard/index",
+                    "query": "address=undefined&addresscode=undefined&receiver=undefined&receivernum=undefined&choosetime=undefined",
+                    "scene": null
+                },
+                {
+                    "name": "pages/addressDetail/index",
+                    "pathName": "pages/addressDetail/index",
+                    "query": "address=undefined&addresscode=undefined&receiver=undefined&receivernum=undefined&choosetime=undefined",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

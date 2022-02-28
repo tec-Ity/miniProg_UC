@@ -1,0 +1,33 @@
+<image class="iconUser" src="/icons/iconUser1.svg"></image>
+<view class="orderNum">NO.001001001</view>
+<navigator class="addAddressMessage" url="/pages/addressDetail/index">添加收貨信息</navigator>
+
+<view class="UserDetailBox">
+    <view class="Receiver">{{address.userName}}</view>
+    <view class="ReceiverNum">{{address.telNumber}}</view>
+    <view class="Address">{{address.all}}</view>
+    <view class="HouseNum">{{address.detailInfo}}</view>
+    <view class="CurrentAddress">當前位置</view>
+    <view class="BlankBox1"></view>
+    <view class="triangular" hover-class="boxHover"></view>
+</view>
+
+<view class="OtherUserDetailBox">
+    <!-- <view class="Receiver2">收件人</view> -->
+    <text class="Receiver2">{{pname}}</text>
+    <!-- <view class="ReceiverNum2">+39 333 333 3333</view> -->
+    <text class="ReceiverNum2">{{pphone}}</text>
+    <button class="GoButton" bindtap="go" size="mini" hover-class="true">-></button>
+    <!-- <view class="Address2">地址地址地址</view> -->
+    <text class="Address2">{{paddress}}</text>
+    <!-- <view class="HouseNum2">門牌號 收貨提示</view> -->
+    <text class="HouseNum2">{{paddressdetail}}</text>
+</view>
+
+<view class="OtherUserDetailBox2">
+    <view class="Receiver3">收件人</view>
+    <view class="ReceiverNum3">+39 333 333 3333</view>
+    <button class="GoButton" bindtap="go" size="mini" hover-class="true">-></button>
+    <view class="Address3">地址地址地址</view>
+    <view class="HouseNum3">門牌號 收貨提示</view>
+</view>

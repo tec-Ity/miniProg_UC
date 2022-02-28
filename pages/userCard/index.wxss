@@ -1,0 +1,293 @@
+.iconUser{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+width: 200rpx;
+height: 200rpx;
+left: 271rpx;
+top: 0rpx;
+}
+.orderNum{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #1D1D38;
+position: relative;
+justify-content: center;
+align-items: center;
+top: 208rpx;
+left: -5rpx;
+}
+.addAddressMessage{
+    display: flex;
+    position: relative;
+    width: 668rpx;
+    height: 78rpx;
+    left: 37rpx;
+    top: 233rpx;
+    background: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);
+border-radius: 40rpx 40rpx 40rpx 0rpx;
+justify-content: center;
+align-items: center;
+}
+.UserDetailBox{
+   display: flex;
+    position: absolute;
+width: 673rpx;
+height: 290rpx;
+left: 39rpx;
+top: 398rpx;
+border: 5rpx solid whitesmoke;
+border-radius: 20rpx 20rpx 20rpx 20rpx;
+}
+.Receiver{
+    position: absolute;
+    left: 46rpx;
+    top: 29rpx;
+    width: 108rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;    
+}
+.ReceiverNum{
+    position: absolute;
+    left: 173rpx;
+    top: 28rpx;
+    width: 326rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+}
+.Address{
+    position: absolute;
+    left: 44rpx;
+    top: 89rpx;
+    width: 501rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+}
+.HouseNum{
+    position: absolute;
+    left: 41rpx;
+    top: 182rpx;
+    width: 500rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.5;
+}
+.CurrentAddress{
+    position: absolute;
+    right: -30rpx;
+    top: 182rpx;
+    width: 162rpx;
+    height: 28rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1D1D38;    
+    z-index: 100002;
+}
+.BlankBox1{
+    display: flex;
+    position: absolute;
+    width: 172rpx;
+    height: 68rpx;
+right: -2%;
+bottom: 18.08%;
+background: #91E8B3 ;
+border-radius: 20rpx 0rpx 0rpx 0rpx;
+filter: drop-shadow(0px 1.02101px 1.53151px rgba(0, 0, 0, 0.25));
+}
+.triangular {
+    width: 0;
+    height: 0;
+    border-top: 5px solid black;
+    border-right: 5px solid transparent;
+    position: relative;
+    top: 231rpx;
+    right: -662rpx;
+  }
+  .OtherUserDetailBox{
+    display: flex;
+    position: absolute;
+width: 673rpx;
+height: 290rpx;
+left: 39rpx;
+top: 789rpx;
+border-top: 5rpx solid #91E8B3;
+  }
+  .Receiver2{
+    position: absolute;
+    left: 46rpx;
+    top: 39rpx;
+    width: 108rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;   
+  }
+  .ReceiverNum2{
+    position: absolute;
+    left: 173rpx;
+    top: 39rpx;
+    width: 326rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .GoButton{
+    display: flex;
+    position: relative;
+    width: 60rpx;
+    height: 60rpx;
+    top: 28rpx;
+    left: 237rpx;
+    background-color: #91E8B3;
+    border-radius: 30rpx;
+  }
+  .Address2{
+    position: absolute;
+    left: 43rpx;
+    top: 99rpx;
+    width: 501rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .HouseNum2{
+    position: absolute;
+    left: 45rpx;
+    top: 197rpx;
+    width: 500rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.5;
+  }
+  .OtherUserDetailBox2{
+    display: flex;
+    position: absolute;
+width: 673rpx;
+height: 290rpx;
+left: 39rpx;
+top: 1109rpx;
+border-top: 5rpx solid #91E8B3;
+  }
+  .Receiver3{
+    position: absolute;
+    left: 46rpx;
+    top: 39rpx;
+    width: 108rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;   
+  }
+  .ReceiverNum3{
+    position: absolute;
+    left: 173rpx;
+    top: 39rpx;
+    width: 326rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .Address3{
+    position: absolute;
+    left: 43rpx;
+    top: 99rpx;
+    width: 501rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .HouseNum3{
+    position: absolute;
+    left: 45rpx;
+    top: 197rpx;
+    width: 500rpx;
+    height: 30rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.5;
+  }

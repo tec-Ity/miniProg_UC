@@ -1,0 +1,80 @@
+<wxs module="numberUtil" src="../../utils/util.wxs"></wxs>
+<view class="DeliveryInfoBox">
+<image src="/icons/iconUser.svg" class="MenuUser2"></image>
+<view class="DeliveryInfo">配送信息</view>
+<view class="Line1"></view>
+<view class="NextLevel1" src="/icons/chevron-right-circle.svg"></view>
+<view class='AddressCh'>
+     <text class="AddressText">地址：</text>
+     <input placeholder='请输入地址' value='{{address}}' bindinput='i_address'></input>
+    </view> 
+<view class='AddressCode'>
+  <text class="AddressCodeText">邮编：</text>
+     <input placeholder='请输入邮编' value='{{addresscode}}' bindinput='i_addresscode'></input>
+    </view> 
+<view class='ReceiverCh'>
+    收件人：<input placeholder='请输入姓名' value='{{receiver}}' bindinput='i_receiver'></input>
+    </view> 
+    <view class='ReceiverNum'>
+      <text class="PhoneText">电话：</text>
+      <input placeholder='请输入电话' value='{{receivernum}}' bindinput='i_receivernum'></input>
+    </view> 
+<image src="/icons/Union.svg" class="Union"></image>
+<view class="DeliveryTimeCh">配送时间</view>
+<view class="Line2"></view>
+<view class="NextLevel2" src="/icons/chevron-right-circle.svg"></view>
+
+<!-- <picker mode="date" start="2020-01-01" end="" bindchange="bindDateChange" value="{{date}}">
+  <view class="ChooseDateBox" name="date">
+    <input class="ChooseDate" value="{{date}}" placeholder='请选择' disabled='true'></input>
+  </view>
+</picker> -->
+
+<view class="ChooseDate">
+  <picker mode="multiSelector" value="{{dateTime1}}" bindchange="changeDateTime1" bindcolumnchange="changeDateTimeColumn1" range="{{dateTimeArray1}}">
+    <view class="ChooseDate" bindinput=' i_choosetime' value="{{dateTime1}}">
+      请选择: {{dateTimeArray1[0][dateTime1[0]]}}-{{dateTimeArray1[1][dateTime1[1]]}}-{{dateTimeArray1[2][dateTime1[2]]}} {{dateTimeArray1[3][dateTime1[3]]}}:{{dateTimeArray1[4][dateTime1[4]]}}
+    </view>
+  </picker>
+</view>
+
+
+<button class="GoButton" bindtap="go" size="mini" hover-class="true">-></button>
+</view>
+<view class="Shop1Box">
+<image src="/icons/iconShop.svg" class="Shop1"></image>
+<view class="ShopCh">一号店</view>
+<view class="Line3"></view>
+<view class="cart_main">
+<block wx:if="{{cart.length!==0}}">
+      <view class="CartsGroup"
+        wx:for="{{cart.orderProds}}"
+        wx:key="*this"
+        data-index="{{index}}"
+      >
+    <view class="orderProdNome">{{item.orderProdNome}}</view>
+    <image class="orderProdImg" mode="aspectFit" src="{{dns+(item.orderProdImg)}}"></image>
+    <view class="orderProdQuantity">{{item.orderProdQuantity}}</view> 
+    <view class="orderProdPrice">€{{item.orderSkus[0].price_sale +"×"}}</view>
+    <view class="orderProdTotPrice">€{{numberUtil.numberFormat(item.orderSkus[0].price_sale*item.orderProdQuantity)}}</view>
+  </view>
+</block>  
+</view>  
+</view>
+<view class="Line4"></view>
+<view class="DeliveryFeeText">配送費</view>
+<view class="DeliveryFee">€00</view>
+<view class="Line5"></view>
+<view class="TotPriceText">訂單總計</view>
+<view class="TotalPrice">€{{numberUtil.numberFormat(cart.totPrice)}}</view>
+
+
+<view class="footer_tool">
+  <block wx:if="{{time !==0}}">
+  <view bindtap="ConfirmOrder"  class="ConfirmOrder" >确认下单</view>
+</block>
+  <block wx:else>
+   <view bindtap="PlzChooseTime" class="PlzChooseTime"></view> 
+  </block>
+</view>
+

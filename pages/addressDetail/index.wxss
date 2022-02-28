@@ -1,0 +1,115 @@
+.iconUser{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+width: 200rpx;
+height: 200rpx;
+left: 271rpx;
+top: 0rpx;
+}
+.orderNum{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #1D1D38;
+position: relative;
+justify-content: center;
+align-items: center;
+top: 208rpx;
+left: -5rpx;
+}
+.container{
+    display: flex;
+    position: relative;
+    width: 669rpx;
+    height: 1022rpx;
+    left: 40rpx;
+    top: 257rpx;
+}
+.name{
+    position: absolute;
+width: 694rpx;
+height: 80rpx;
+left: -8rpx;
+top: 0rpx;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;    
+    border-radius: 40rpx 40rpx 40rpx 0rpx;
+    border: 5rpx solid #91E8B3;
+}
+.phone{
+    position: absolute;
+    width: 694rpx;
+    height: 80rpx;
+    left: -8rpx;
+    top: 141rpx;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #1D1D38;    
+        border-radius: 40rpx 40rpx 40rpx 0rpx;
+        border: 5rpx solid #91E8B3;
+}
+.address{
+    position: absolute;
+    width: 694rpx;
+    height: 80rpx;
+    left: -8rpx;
+    top: 280rpx;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #1D1D38;    
+        border-radius: 40rpx 40rpx 40rpx 0rpx;
+        border: 5rpx solid #91E8B3;
+}
+.addressdetail{
+    position: absolute;
+    width: 694rpx;
+    height: 80rpx;
+    left: -8rpx;
+    top: 686rpx;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #1D1D38;    
+        border-radius: 40rpx 40rpx 40rpx 0rpx;
+        border: 5rpx solid #91E8B3;
+}
+.confirm{
+    width: 694rpx;
+    height: 80rpx;
+    left: -8rpx;
+    top: 810rpx;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #1D1D38;    
+        border-radius: 40rpx 40rpx 40rpx 0rpx;
+        border: 5rpx solid #91E8B3;
+}

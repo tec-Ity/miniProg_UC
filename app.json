@@ -1,0 +1,61 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_detail/index",
+    "pages/cart/index", 
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/orderDetail/index",
+    "pages/search/index",    
+    "pages/user/index",
+    "pages/userCard/index",
+    "pages/addressDetail/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index" ,
+    "pages/shop/index" 
+  ], 
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#C0E57B",
+    "navigationBarTitleText": "UnionCity",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+    },
+  "tabBar": { 
+    "color": "#000000",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icons/menuShop (1).png",
+        "selectedIconPath": "icons/menuShopSelected (1).png"
+      },
+    
+      {
+        "pagePath": "pages/order/index",
+        "iconPath": "icons/Group 1163.png",
+        "selectedIconPath": "icons/Group 1349.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "icons/Group 1164.png",
+        "selectedIconPath": "icons/Group 1350.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "请确认授权"
+    }
+  },
+  
+  "style":"v2",
+  "sitemapLocation": "sitemap.json"
+}
+

@@ -1,0 +1,56 @@
+<image class="OrderCenter" src="/icons/iconOrder.svg"></image>
+<view class="ConditionBox">
+<view class="OrderToBePaid" bindtap="toPay">
+   <block wx:if="{{isPaid == false}}">
+      <image src="/icons/iconOrderToBePaid.svg"></image>
+   </block>
+   <block wx:elif="{{isPaid == true}}" >
+      <image src="/icons/iconOrderToBePaidSelected.svg"></image>
+   </block>
+</view>
+
+<view class="OrderInProcess" bindtap="toProcess">
+   <block wx:if="{{isFinished == false}}">
+      <image src="/icons/iconOrderInProcess.svg"></image>
+   </block>
+   <block wx:elif="{{isFinished == true}}" >
+      <image src="/icons/iconOrderInProcessSelected.svg"></image>
+   </block>
+</view>
+
+<view class="OrderComplete" bindtap="toServiced">
+   <block wx:if="{{isServiced == false}}">
+      <image src="/icons/iconOrderDelivered.svg"></image>
+   </block>
+   <block wx:elif="{{isServiced == true}}" >
+      <image src="/icons/iconOrderDeliveredSelected.svg"></image>
+   </block>
+</view>
+
+<view class="OrderCancel" bindtap="toCanceled">
+   <block wx:if="{{isCanceled == false}}">
+      <image src="/icons/iconOrderCancelled.svg"></image>
+   </block>
+   <block wx:elif="{{isCanceled == true}}" >
+      <image src="/icons/iconOrderCancelledSelected%20(1).svg"></image>
+   </block>
+</view>
+</view>
+
+<view class="OrderProdsBox">
+   <image class="OrderProdsBoxToBePaid" src="/icons/iconOrderToBePaidSelected.svg"></image>
+   <view class="Date">2021.7.23 15:30</view>
+   <view class="Shop1">米蘭一號店</view>
+   <view class="orderTotPrice">€{{order.total_sale}}</view>
+   <text class="Line1"></text>
+      <view class="CartsGroup"
+        wx:for="{{order.OrderProds}}"
+        wx:key="*this"
+        data-index="{{index}}"
+      >
+    <view class="orderProdNome">{{item.nome}}</view>
+    <view class="orderProdQuantity">×{{item.OrderSkus[0].quantity}}</view> 
+    <view class="orderProdPrice">€{{item.prod_sale}}</view>
+  </view>
+</view>
+ 

@@ -1,0 +1,66 @@
+ <view class="cart_content">
+<image class="CartPic" mode="widthFix" src="/icons/cart.svg"></image>
+<text class="CartText">购物车</text>
+<image class="ShopPic" mode="widthFix" src="/icons/shopConsegna.svg"></image>
+   <view class="cart_title">一号店</view>
+   <image class="CartDelete" src="/icons/delete.svg" mode="widthFix" bindtap="handleDeleteCart"  data-shopid="{{cart.shopid}}"></image>
+      <navigator url="/pages/category/index" class="goToPay">进入店铺</navigator>
+ </view>
+   
+<view class="cart_main">
+<block wx:if="{{cart.length!==0}}">
+      <view class="CartsGroup"
+        wx:for="{{cart.orderProds}}"
+        wx:key="*this"
+        data-index="{{index}}"
+      >
+    
+    <view class="orderProdNome">{{item.orderProdNome}}</view>
+    <image class="orderProdImg" mode="aspectFit" src="{{dns+(item.orderProdImg)}}"></image>
+    <view class="orderProdQuantity">{{item.orderProdQuantity}}</view> 
+    <view class="orderProdPrice">€{{item.orderSkus[0].price_sale +"×"}}</view>
+  </view>
+  <!-- <view class="orderProdTotPrice">€{{cart.totPrice}}</view> -->
+</block>  
+</view>  
+
+
+<view class="footer_tool">
+  <!-- <view class="all_chk_wrap">
+     <checkbox-group bindchange="handleItemAllCheck">
+     <checkbox checked="{{allChecked}}">全选</checkbox>
+     </checkbox-group>
+  </view> -->
+  <view class="total_price_wrap">
+   <view class="total_price">
+      合计：  <view class="orderProdTotPrice">€{{cart.totPrice}}</view>
+   </view>
+   <view>包含运费</view>
+  </view>
+  <view class="order_pay_wrap" bindtap="handlePay">
+  结算({{totalNum}})
+  </view>
+</view> 
+
+
+ <!-- <view class="carts-footer">  
+    <view class="bottomfixed">  
+      <view class="inner">  
+        <view class="chkAll" bindtap="bindSelectAll">
+        <image class="allselect" src="{{selectAllStatus?'/icons/check-circle.svg':'/icons/orderStatueCanceledGrey.svg'}}" /> 
+          <text>全选</text>  
+        </view>  
+        <view class="total">合计：<em>￥{{totalMoney}}</em></view>  
+        <view wx:if="{{totalCount != 0}}" class="btn-pay" bindtap='bindjiesuan'>去结算({{totalCount}})</view>  
+        <view wx:else class="btn-pay disabled">去结算({{totalCount}})</view>  
+      </view>  
+    </view>  
+  </view>
+  </block>
+  <block wx:else>
+     <view class="content" >
+      <view style="margin-top:50px;width:100%;">
+       <view style='font-size:15px;'>购物车没有商品!</view>
+      </view>
+    </view>
+  </block> -->

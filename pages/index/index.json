@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+  "SearchInput":"../../components/SearchInput/SearchInput",
+  "navigation-bar":"/components/navigation-bar/navigation-bar"
+  },
+  "navigationBarTitleText": "  UnionCity",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh":true
+}

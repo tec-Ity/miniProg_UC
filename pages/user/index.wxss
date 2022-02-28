@@ -1,0 +1,390 @@
+page {
+    background-color: #E5E5E5;
+  }
+  .user_info_wrap {
+    height: 45vh;
+    overflow: hidden;
+    background-color: var(--themeColor);
+    position: relative;
+  }
+  .user_info_wrap .user_img_wrap {
+    position: relative;
+  }
+  .user_info_wrap .user_img_wrap .user_bg {
+    height: 50vh;
+    filter: blur(10rpx);
+  }
+  .user_info_wrap .user_img_wrap .user_info {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    text-align: center;
+  }
+  .user_info_wrap .user_img_wrap .user_info .user_icon {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+  }
+  .user_info_wrap .user_img_wrap .user_info .user_name {
+    color: #fff;
+    margin-top: 40rpx;
+  }
+  .user_info_wrap .user_btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    border: 1rpx solid #fff;
+    color: #fff;
+    font-size: 38rpx;
+    padding: 30rpx;
+    border-radius: 10rpx;
+  }
+  .user_content {
+    position: relative;
+  }
+  .user_content .user_main {
+    padding-bottom: 100rpx;
+    color: #666;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40rpx;
+  }
+  .user_content .user_main .history_wrap {
+    background-color: #fff;
+    display: flex;
+  }
+  .user_content .user_main .history_wrap navigator {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .user_content .user_main .history_wrap navigator .his_num {
+    color: var(--themeColor);
+  }
+  .user_content .user_main .orders_wrap {
+    background-color: #fff;
+    margin-top: 30rpx;
+  }
+  .user_content .user_main .orders_wrap .orders_title {
+    padding: 20rpx;
+    border-bottom: 1rpx solid #ccc;
+  }
+  .user_content .user_main .orders_wrap .orders_content {
+    display: flex;
+  }
+  .user_content .user_main .orders_wrap .orders_content navigator {
+    padding: 15rpx 0;
+    flex: 1;
+    text-align: center;
+  }
+  .user_content .user_main .orders_wrap .orders_content navigator .iconfont {
+    color: var(--themeColor);
+    font-size: 40rpx;
+  }
+  .user_content .user_main .address_wrap {
+    margin-top: 30rpx;
+    background-color: #fff;
+    padding: 20rpx;
+  }
+  .user_content .user_main .app_info_wrap {
+    margin-top: 30rpx;
+    background-color: #fff;
+  }
+  .user_content .user_main .app_info_wrap .app_info_item {
+    padding: 20rpx;
+    border-bottom: 1rpx solid #ccc;
+  }
+  .user_content .user_main .app_info_wrap .app_info_contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  .user_content .user_main .recommend_wrap {
+    margin-top: 30rpx;
+    background-color: #fff;
+    padding: 20rpx;
+  }
+  .User_ContactInfo{
+    position: relative;
+    width: 700rpx;
+    height: 488rpx;
+    left: 25rpx;
+    top: -200rpx;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60rpx rgba(0, 0, 0, 0.1);
+    border-radius: 20rpx;
+  }
+  .User{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    position: relative;
+    top: 20rpx;
+    left: 20rpx;
+    align-items: center;    
+    color: #1D1D38; 
+  }
+  .RightArrow1{
+    position: absolute;
+width: 44rpx;
+height: 44rpx;
+left: 600rpx;
+top: 20rpx;
+border-radius: 20rpx;
+background: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);
+  }
+  .User_Pic{
+    display: flex;
+    position: relative;
+    height: 36rpx;
+    width: 24rpx;
+    left: 30rpx;
+    top: 20rpx;
+    border-radius: 0px;
+    background-color: #C0E57B;
+  }
+  .UserName{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24rpx;
+    line-height: 34rpx;
+    display: flex;
+    position: relative;
+    top: -10rpx; 
+    right: -120rpx;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .divLine4{
+      display: flex;
+    position: relative;
+    left: 10.14%;
+    right: 10.14%;
+    top: 30.25%;
+    bottom: 69.75%;
+    border: 0.6rpx solid;
+    border-image-source: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);    
+    /* background-color: black; */
+    top: -10rpx;
+    left: -5rpx;
+  }
+  .Account{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 15rpx;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .Email_Pic{
+    display: flex;
+    position: relative;
+    left: 5rpx;
+    top: 40rpx;
+    width: 40rpx;
+    height: 28rpx;
+  }
+  .Email{
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 24rpx;
+line-height: 34rpx;
+display: flex;
+position: relative;
+top: 10rpx;
+right: -100rpx;
+align-items: center;
+color: #1D1D38;
+  }
+  .Phone_Pic{
+    display: flex;
+    position: relative;
+    left: 10rpx;
+    top: 45rpx;
+    width: 28rpx;
+    height: 40rpx;
+  }
+  .Phone{
+    font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 24rpx;
+line-height: 34rpx;
+display: flex;
+position: relative;
+top: 10rpx;
+right: -100rpx;
+align-items: center;
+color: #1D1D38;
+  }
+  .MyAddress{
+    position: relative;
+    width: 700rpx;
+    height: 300rpx;
+    left: 25rpx;
+    top: -100rpx;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60rpx rgba(0, 0, 0, 0.1);
+    border-radius: 20rpx;
+  }
+  .Address{
+font-family: PingFang SC;
+font-style: normal;
+font-weight: 600;
+font-size: 28rpx;
+line-height: 40rpx;
+display: flex;
+position: relative;
+top: 20rpx;
+left: 20rpx;
+align-items: center;
+color: #1D1D38;
+  }
+  .RightArrow2{
+    position: absolute;
+width: 44rpx;
+height: 58rpx;
+left: 600rpx; 
+top: 20rpx;
+border-radius: 44rpx;
+justify-content: center;
+align-items: center;
+background: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);
+  }
+  .Pin_Pic{
+    display: flex; 
+    position: relative; 
+    height: 47rpx;
+    width: 44rpx;
+    left: 20rpx;
+    top: 40rpx;
+    border-radius: 0px;
+    background-color: #C0E57B;
+  }
+  .Detail_Address{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24rpx;
+    line-height: 34rpx;
+    display: flex;
+    position: relative;
+    top: 5rpx;
+    left: 120rpx;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .Detail_Address2{
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+display: flex;
+position: relative;
+top: 20rpx;
+left: 120rpx;
+align-items: center;
+color: #1D1D38;
+  }
+  .HouseNum{
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 24rpx;
+line-height: 34rpx;
+display: flex;
+position: relative;
+top: 30rpx;
+left: 120rpx;
+align-items: center;
+color: #1D1D38;
+opacity: 0.5;
+  }
+  .Logout{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24rpx;
+    line-height: 34rpx;
+    text-align: center;
+    /* color: #1D1D38; */
+    background-color: transparent;
+    opacity: 0.8;
+    border:none;
+  }
+  .Logout::after{
+    border: none;
+}
+  .Version{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #1D1D38;
+    opacity: 0.5;
+  }
+
+  .modification-phone {
+    background: #FFFFFF;
+    height: 100%;
+    padding: 0 76rpx;
+  }
+  .shu {
+    font-size: 28rpx;
+    color: #000000;
+    font-weight: 600;
+    padding: 79rpx 0 24rpx;
+  }
+  .phone {
+    font-size: 24rpx;
+    font-weight: 400;
+    margin-bottom: 70rpx;
+  }
+  .verification-code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28rpx;
+    color: #F73A3F;
+    background: #EEEEEE;
+    border-radius: 44rpx;
+    padding: 15rpx 38rpx;
+  }
+  .verification-code view:nth-child(1) {
+    display: flex;
+    align-items: center;
+  }
+  .verification-code view:nth-child(1) input {
+    width: 260rpx;
+  }
+  .verification-code view:nth-child(1) image {
+    width: 26rpx;
+    height: 28rpx;
+    margin-right: 18rpx;
+  }
+   
+  .submit {
+    height: 88rpx;
+    margin: 110rpx 0 0;
+    text-align: center;
+    line-height: 88rpx;
+    font-size: 32rpx;
+    color: #FFFFFF;
+    background: #F73A3F;
+    border-radius: 44rpx;
+  }

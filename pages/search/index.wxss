@@ -1,0 +1,262 @@
+page {
+    padding: 20rpx;
+  }
+  .SearchBox{
+    display: flex;
+    position: relative;
+    height: 63rpx;
+    width: 828rpx;
+    top: -20rpx;
+    left: -34rpx;
+    background-color: #C0E57B;
+  }
+  .search_row {
+    display: flex;
+    position: absolute;
+    left: 200rpx;
+    top: 15rpx;
+    height: 67rpx;
+    display: flex;
+    border: 1rpx solid #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 40rpx 40rpx 40rpx 0rpx;
+  }
+  .search_row input {
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    flex: 1;
+    left: -142rpx;
+    top: -19rpx;
+    height: 100%;
+    width: 620rpx;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40rpx 40rpx 40rpx 0rpx;
+    padding-left: 30rpx;
+  }
+  .search_row button {
+    display: flex;
+    position: absolute;
+    color: #C0E57B;
+    width: 10rpx;
+    top: -17rpx;
+    left: 144rpx;
+    height: 100%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .search_content {
+    margin-top: 30rpx;
+  }
+  .search_content .search_item {
+    background-color: #fff;
+    font-size: 26rpx;
+    padding: 15rpx 10rpx;
+    border-bottom: 1rpx solid #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .Address{
+    display: flex;
+    position: relative;
+  }
+  .currentAddress{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.3;
+  }
+  page {
+    padding-bottom: 90rpx;
+  }
+  .revice_address_row{
+    width: 100%;
+    position: relative;
+  }
+  .revice_address_row .CurrentLocation{
+position: relative;
+width: 46rpx;
+height: 50rpx;
+left: 6rpx;
+top: -129rpx;
+transform: rotate(30deg);
+border-radius: 20rpx;
+/* background: #C0E57B; */
+  }
+  .revice_address_row .address_btn {
+    padding: 20rpx;
+  }
+  .revice_address_row .address_btn button {
+    width: 60%;
+  }
+  .revice_address_row .user_info_row {
+    display: flex;
+    padding: 20rpx;
+  }
+  .revice_address_row .user_info_row .user_info {
+    position: relative;
+    flex: 5;
+    left: 53rpx;
+    top: 4rpx;
+  }
+  .revice_address_row .user_info_row .user_phone {
+    position: relative;
+    flex: 3;
+    text-align: right;
+    left: 0rpx;
+    top: 4rpx;
+  }
+  .Relocate{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    left: 600rpx;
+    top: -40rpx;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.3;
+  }
+  .divLine1{
+    border: 0.72rpx solid;
+    background: linear-gradient(270deg, #91E8B3 0%, #C0E57B 100%, #C0E57B 100%);
+    width: 100%;
+    height: 5rpx;
+  }
+  .MyAddressDetail{
+    display: flex;
+    position: relative;
+  }
+  .User{
+    position: relative;
+width: 34rpx;
+height: 50rpx;
+left: 0rpx;
+top: 70rpx; 
+/* background: #C0E57B; */
+  }
+  .MyAddress{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 20rpx;
+    left: 50rpx;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.3;
+  }
+  .AddressDetail{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 40rpx;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .ConsigneeDetail{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 60rpx;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.3;
+  }
+  .MyAddressDetai2{
+    display: flex;
+    position: relative;
+  }
+  .divLine2{
+    background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+ position: relative;
+ top: 60rpx;
+  }
+  .AddressDetail2{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 90rpx;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .ConsigneeDetail2{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 120rpx;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.3;
+  }
+  .divLine3{
+    background: #E0E3DA;
+    width: 100%;
+    height: 5rpx;
+    position: relative;
+    top: 120rpx;
+  }
+  .AddressDetail3{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 140rpx;
+    align-items: center;
+    color: #1D1D38;
+  }
+  .ConsigneeDetail3{
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    display: flex;
+    position: relative;
+    top: 160rpx;
+    align-items: center;
+    color: #1D1D38;
+    opacity: 0.3;
+  }
+  .divLine4{
+    background: #E0E3DA;
+    width: 100%;
+    height: 5rpx;
+    position: relative;
+    top: 190rpx; 
+  }

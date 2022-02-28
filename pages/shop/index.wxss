@@ -1,0 +1,136 @@
+Page{
+  background: #f5f5f5;
+ }
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 738rpx; 
+    height: 385rpx;
+    border-radius: 100rpx 0 0 0;
+    position: relative;
+    top: 20rpx;
+    left: 20rpx;
+  }
+  .ShopsPic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #C0E57B;
+    width: 688rpx; 
+    height: 301rpx;
+    border-radius: 40rpx 0 0 0;
+    position: absolute;
+    top: 20rpx;
+    left: 18rpx;
+      }
+.littlebox{
+    display: flex;
+    background-color: #E47F10;
+    height: 128rpx;
+    width: 330rpx;
+    position: absolute;
+    top: 48rpx;
+    left: 392rpx;
+    flex-direction: column;
+    border-radius: 20rpx 0rpx 0rpx 0rpx;
+  }
+  .t1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;
+    width: 300rpx;
+    height: 40rpx;
+    left : 28rpx;
+    top: 9rpx;
+    align-items: center; 
+  }
+  .t2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;    
+    width: 300rpx;
+    height: 40rpx;
+    right: -1rpx;
+    top: 52rpx;
+    align-items: center; 
+    padding-right: 15rpx;
+  }
+  .t3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;  
+    width: 300rpx;
+    height: 40rpx;
+    right: -1rpx;
+    top: 87rpx;
+    align-items: center; 
+    padding-right: 15rpx;
+  }
+  .triangular{
+    position: absolute;
+    width: 7px;
+    height: 25px; 
+    border-top: 5px solid black; 
+    border-right: 5px solid transparent; 
+    position: relative;
+    top: 127rpx;
+    right: -313rpx;
+  }
+  .btn_Suspension{
+    position: fixed;
+    height: 100rpx;
+    width: 100rpx;
+    background-color: #1D1D38;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    box-shadow: 1px 0px 1px 1px #1D1D38;
+  }
+  .Suspension_logo{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    width:50%;
+    left:23%;
+    top:27%
+  }
+   .cornorMark{
+     position:absolute;
+     background: rgb(242, 109, 38);
+     border:1px solid rgb(242, 109, 38);
+     border-radius: 100px;
+     width:30rpx;
+     height:30rpx;
+     top:-17rpx;
+     right:3rpx;
+     color:#fff;
+     font-size: 12px;
+     text-align: center;
+   }
+   .cornorMark text{
+     position:absolute;
+     width:100%;
+     left:0%;
+     text-align: center;
+     top:-1px;
+   }
+   

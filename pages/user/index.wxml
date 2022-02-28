@@ -1,0 +1,64 @@
+<view class="user_info_wrap">
+  <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+    <image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+    <view class="user_info">
+       <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+       <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <navigator url="/pages/login/index" >登录</navigator>
+  </view>
+</view>
+
+
+
+
+<view class="User_ContactInfo">
+<view class="User">昵称</view>
+<image class="RightArrow1" mode="widthFix" src="/icons/right-arrow.svg"></image>
+<image class="User_Pic" src="/icons/user.svg"></image>
+<input class="UserName" value="{{inpValue}}" placeholder="GREENCITY" bindinput="handleInput"></input>
+<view class="divLine4"></view>
+<view class="Account">账号</view>
+<image class="Email_Pic" src="/icons/emailIcon.svg"></image>
+<input class="Email" value="{{inpValue}}" placeholder="GREENCITY@GMAIL.COM" bindinput="handleInput"></input>
+<image class="Phone_Pic" src="/icons/phoneIcon.svg"></image>
+<wxs module="tools" src="../../sub/subutil.wxs"></wxs>
+<view class="modification-phone">
+  <view class="shu">请输入验证码</view>
+  <view class="phone">输入{{tools.sub(phone, 3, 4)}}收到的验证码</view>
+ 
+ 
+  <view class="verification-code">
+    <view>
+      <image src="http://ico.dongtiyan.com/tu-31.png"></image>
+      <input placeholder="请输入验证码" value="" placeholder-class="color: #999999;"></input>
+    </view>
+    <block wx:if="{{countDownNum==60 || countDownNum==-1}}">
+      <view bindtap="countDown">获取验证码</view>
+    </block>
+    <block wx:else>
+      <view>{{countDownNum}}s后重新发送</view>
+    </block>
+  </view>
+ 
+  <view class="submit" bindtap="chooseSubmit">提交</view>
+</view>
+<input class="Phone" value="{{inpValue}}" placeholder="+39 333 3333 333" bindinput="handleInput"></input>
+</view>
+
+<view class="MyAddress">
+<view class="Address">我的地址</view>
+<!-- <image class="RightArrow2" mode="widthFix" src="/icons/right-arrow.svg"></image> -->
+<button class="RightArrow2" bindtap="go" size="mini" hover-class="true">-></button>
+<image class="Pin_Pic" src="/icons/pin.svg"></image>
+<view class="Detail_Address">GREENCITY - 0574 22219</view> 
+<view class="Detail_Address2">Via Gaetano de Castilia 10,20124,MI</view>
+<input class="HouseNum" value="{{inpValue}}" placeholder="门牌号，收货提示" bindinput="handleInput"></input>
+</view>
+
+<view>
+   <button class="Logout" bindtap="clear" plain>退出登录</button>
+</view>
+<view class="Version">版本1.0.0</view>
