@@ -19,7 +19,7 @@ App({ //onLaunch,onShow: options(path,query,scene,shareTicket,referrerInfo(appId
             }
           })
         } else {
-          //console.log('获取用户登录状态失败！'+ res.errMsg)
+          console.log('获取用户登录状态失败！'+ res.errMsg)
         }
       }
 

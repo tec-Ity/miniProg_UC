@@ -51,13 +51,6 @@ Page({
             this.qsearch(value);
         },1000);
     }, 
-    async qsearch(query){ 
-        const res=await request({url:"/goods/qsearch",data:{query}});
-        //console.log(res);
-        this.setData({
-             goods:res
-        })
-    },
     handleCancel(){
         this.setData({
             inpValue:"",

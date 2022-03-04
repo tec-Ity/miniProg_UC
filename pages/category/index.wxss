@@ -161,7 +161,7 @@
 
 .drawer_content {
   padding: 20rpx 40rpx;
-  height: 470rpx;
+  height: 800rpx;
   overflow-y: scroll;
 }
 
@@ -279,7 +279,7 @@ color: #1D1D38;
 }
 .cart_content {
   position: relative;
-  height: 350rpx;
+  height: 650rpx;
   overflow-y: scroll;
 }
 

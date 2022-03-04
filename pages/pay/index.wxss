@@ -5,8 +5,9 @@ page {
 .DeliveryInfoBox {
   display: flex;
   position: relative;
-  top: 56rpx;
+  margin-top: 56rpx;
   width: 748rpx;
+  height:300rpx;
 }
 
 .MenuUser2 {
@@ -268,8 +269,8 @@ opacity: 0.5;
   position: absolute;
   width: 488rpx;
   height: 28rpx;
-  left: 48rpx;
-  top: 129rpx;
+  left: 90rpx;
+  top: 255rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;
@@ -290,14 +291,16 @@ opacity: 0.5;
   background-color: #C0E57B;
   border-radius: 30rpx;
 }
-
+.Shop1Box{
+  position:relative;
+  margin-top: 20rpx;
+}
 .Shop1 {
   display: flex;
   position: absolute;
   width: 40rpx;
-  height: 40rpx;
-  top: 385rpx;
   left: 34rpx;
+  height:35rpx
 }
 
 .ShopCh {
@@ -305,7 +308,6 @@ opacity: 0.5;
   width: 108rpx;
   height: 36rpx;
   left: 94rpx;
-  top: 389rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: 600;
@@ -323,16 +325,14 @@ opacity: 0.5;
   width: 503rpx;
   height: 0rpx;
   left: 195rpx;
-  top: 402rpx;
+  top: 15rpx;
   color: #C0E57B;
   opacity: 0.5;
   border: 0.5rpx solid #C0E57B;
 }
 
 .cart_main {
-  position: relative;
-  top: 476rpx;
-  height: calc (100vh - 90rpx);
+padding-top:66rpx;
 }
 
 .CartsGroup {
@@ -438,71 +438,43 @@ color: #1D1D38;
 }
 .DeliveryFeeText {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1rpx solid #C0E57B;
+  padding:20rpx;
   position: relative;
   width: 664rpx;
   left: 44rpx;
-  top: 521rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
-  align-items: center;
   color: #1D1D38;
-  border: 2rpx;
   /* border-top: 1rpx solid #ccc; */
-  margin-top: 10rpx;
+  margin-top: 20rpx;
 }
 
-.DeliveryFee {
-  display: flex;
-  position: relative;
-  left: 560rpx;
-  top: 477rpx;
-  font-family: PingFang SC;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  text-align: right;
-  color: #1D1D38;
-}
 
 .TotPriceText {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1rpx solid #C0E57B;
+  padding:20rpx;
   position: relative;
   width: 664rpx;
   left: 40rpx;
-  top: 524rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
-  align-items: center;
   color: #1D1D38;
   /* border-top: 1rpx solid #ccc; */
+  margin-bottom: 50rpx;
 }
 
-.TotalPrice {
-  display: flex;
-  position: relative;
-  left: 554rpx;
-  top: 476rpx;
-  font-family: PingFang SC;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: right;
-  color: #E47F10;
-}
 
 .footer_tool {
   position: fixed;

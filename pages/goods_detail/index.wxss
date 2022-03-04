@@ -155,7 +155,7 @@ border: 0rpx solid #C0E57B;
   width: 62rpx;
   height: 62rpx;
   right: 80rpx;
-  top: 1080rpx;
+  top: 956rpx;
   background: #C0E57B;
   border-radius: 40rpx 40rpx 40rpx 40rpx;
   font-size: 40rpx;
@@ -312,7 +312,7 @@ border-radius: 14rpx 14rpx 14rpx 0rpx;
 
 .drawer_content {
   padding: 20rpx 40rpx;
-  height: 470rpx;
+  height: 800rpx;
   overflow-y: scroll;
 }
 
@@ -433,7 +433,7 @@ border-radius: 14rpx 14rpx 14rpx 0rpx;
 }
 .cart_content {
   position: relative;
-  height: 350rpx;
+  height: 650rpx;
   overflow-y: scroll;
 }
 
@@ -619,11 +619,11 @@ color: #E47F10;
 justify-content: center;
 align-items: center;
 }
-.tool_item{
+.tool_item {
   display: flex;
   position: fixed;
   z-index: 1001;
-  width: 570rpx;
+  width: 541rpx;
   height: 46px;
   left: 0rpx;
   bottom: 0rpx;
@@ -661,27 +661,28 @@ color: #E47F10;
   color: #1D1D38;
   opacity: 0.3;
 }
-  .GoToPay {
-    display: flex;
-    position: relative;
-    background-color: #1D1D38;
-    width: 238rpx;
-    left: 543rpx;
-    top: -1rpx;
-  }
-  .btn_buymore{
-    display: flex;
+.GoToPay {
+  display: flex;
+  position: relative;
+  background-color: #1D1D38;
+  width: 286rpx;
+  left: 503rpx;
+  top: -25rpx;
+}
+.btn_buymore{
+  display: flex;
+
   position: absolute;
-  width: 215rpx;
+  width: 292rpx;
   height: 91rpx;
-  left: 0rpx; 
+  left: -14rpx;
   top: 1rpx;
   background-color: grey;
-  }
+}
 .BuyMore {
   display: flex;
   position: absolute;
-  left: 8rpx;
+  left: 45rpx;
   top: 18rpx;
   flex-direction: column;
   justify-content: center;

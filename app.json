@@ -25,27 +25,31 @@
     "enablePullDownRefresh":true
     },
   "tabBar": { 
-    "color": "#000000",
-    "selectedColor": "#FFFFFF",
+    "color": "#8E8EA9",
+    "selectedColor": "#1d1d38",
     "backgroundColor": "#FFFFFF",
     "position": "bottom",
     "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "icons/menuShop (1).png",
-        "selectedIconPath": "icons/menuShopSelected (1).png"
+        "iconPath": "icons/menuShop.png",
+        "selectedIconPath": "icons/menuShopSelected.png",
+        "text": "店铺"
       },
     
       {
         "pagePath": "pages/order/index",
-        "iconPath": "icons/Group 1163.png",
-        "selectedIconPath": "icons/Group 1349.png"
+        "iconPath": "icons/menuOrder.png",
+        "selectedIconPath": "icons/menuOrderSelected.png",
+        "text": "订单"
+
       },
       {
         "pagePath": "pages/user/index",
-        "iconPath": "icons/Group 1164.png",
-        "selectedIconPath": "icons/Group 1350.png"
+        "iconPath": "icons/menuUser.png",
+        "selectedIconPath": "icons/menuUserSelected.png",
+        "text": "账户"
       }
     ]
   },
@@ -56,6 +60,7 @@
   },
   
   "style":"v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
 }
 

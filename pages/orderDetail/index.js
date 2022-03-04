@@ -27,6 +27,7 @@ Page({
         preceivernum:"",     
         pchoosetime:"",
         currentIndex: 0,
+        orderPaid:false,
     },   
     onLoad: async function (options) {
         console.log(options.address,options.addresscode,options.receiver,options.receivernum,options.choosetime)
@@ -63,7 +64,8 @@ Page({
         })
         console.log(res);
         this.setData({
-            order: res.data.objects[0]
+            order: res.data.objects[0],
+            orderId,
         })
     },
     countDown() {
@@ -93,4 +95,15 @@ Page({
           })
         }
       },
+      async PayLater(){
+        const res = await dns_request({
+            url: "/Order_change_status/"+this.data.orderId, method:'PUT',data:{action:'PLACE'}});
+
+        console.log(
+            res
+        );
+        if(res.status === 200){
+            this.setData({orderPaid:true})
+        }
+      }
 })

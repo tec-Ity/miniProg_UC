@@ -89,52 +89,53 @@
 </view>
 
 <view class="ToolBox">
-    <view class="btm_tool">
+   <view class="btm_tool">
       <view class="tool_cart_item">
          <view class="cart_btn" bindtap="powerDrawer" data-statu="cart">
-         <image class="cartpic" mode="aspectFit" src="/icons/cart.svg"></image>
-      </view>
-      <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus==='cart'}}"></view>
-      <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus==='cart'}}">
+            <image class="cartpic" mode="aspectFit" src="/icons/cart.svg"></image>
+         </view>
+         <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus==='cart'}}"></view>
          <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus==='cart'}}">
-            <view class="cart_content">
-               <block wx:for="{{cart.orderProds}}" wx:for-item="op" wx:key="index"  data-id="{{op.orderProdId}}">
-               <view class="CartsGroup" wx:for="{{op.orderSkus}}" wx:for-item="os" wx:key="index" data-index="{{index}}" data-id="{{op.orderSkus[index]._id}}">
-                  <view class="cartsProdNome">{{op.orderProdNome}}</view>
-                  <!-- <view class="cartsProdQuantity">{{op.orderProdQuantity}}</view>  -->
-                  <view class="cartsProdPrice">€{{os.price_sale}}</view>
-                  <view class="cartsProdTotPrice">€{{op.orderProdQuantity*os.price_sale}}</view>
 
-                  <!-- 有數量 -->
-                  <block wx:if='{{os.quantity >= 2}}'>
-                     <view class="Cart_NumBtn">
-                        <view bindtap="handleSkuNumEdit" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" data-operation="{{-1}}" class="cart_num_edit_min" data-price="{{os.price_sale}}">-</view>
-                        <view class="cart_num">{{os.quantity}}</view>
-                        <view bindtap="handleSkuNumEdit" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" data-operation="{{1}}" class="cart_num_edit_plus" data-price="{{os.price_sale}}">+</view>
-                     </view>
-                  </block>
-                  <!-- 有數量要刪除 -->
-                  <block wx:if='{{os.quantity === 1}}'>
-                     <view class="Cart_NumBtn">
-                        <view catchtap="deleteSku" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" class="cart_num_edit_min" data-price="{{os.price_sale}}">刪</view>
-                        <view class="cart_num">{{os.quantity}}</view>
-                        <view catchtap="handleSkuNumEdit" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" data-operation="{{1}}" class="cart_num_edit_plus" data-price="{{os.price_sale}}">+</view>
+            <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus==='cart'}}">
+               <view class="cart_content">
+                  <block wx:for="{{cart.orderProds}}" wx:for-item="op" wx:key="index" data-id="{{op.orderProdId}}">
+                     <view class="CartsGroup" wx:for="{{op.orderSkus}}" wx:for-item="os" wx:key="index" data-index="{{index}}" data-id="{{op.orderSkus[index]._id}}">
+                        <view class="cartsProdNome">{{op.orderProdNome}}</view>
+                        <!-- <view class="cartsProdQuantity">{{op.orderProdQuantity}}</view>  -->
+                        <view class="cartsProdPrice">€{{os.price_sale}}</view>
+                        <view class="cartsProdTotPrice">€{{op.orderProdQuantity*os.price_sale}}</view>
+
+                        <!-- 有數量 -->
+                        <block wx:if='{{os.quantity >= 2}}'>
+                           <view class="Cart_NumBtn">
+                              <view bindtap="handleSkuNumEdit" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" data-operation="{{-1}}" class="cart_num_edit_min" data-price="{{os.price_sale}}">-</view>
+                              <view class="cart_num">{{os.quantity}}</view>
+                              <view bindtap="handleSkuNumEdit" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" data-operation="{{1}}" class="cart_num_edit_plus" data-price="{{os.price_sale}}">+</view>
+                           </view>
+                        </block>
+                        <!-- 有數量要刪除 -->
+                        <block wx:if='{{os.quantity === 1}}'>
+                           <view class="Cart_NumBtn">
+                              <view catchtap="deleteSku" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" class="cart_num_edit_min" data-price="{{os.price_sale}}">刪</view>
+                              <view class="cart_num">{{os.quantity}}</view>
+                              <view catchtap="handleSkuNumEdit" data-prodid="{{op.orderProdId}}" data-skuid="{{os._id}}" data-operation="{{1}}" class="cart_num_edit_plus" data-price="{{os.price_sale}}">+</view>
+                           </view>
+                        </block>
                      </view>
                   </block>
                </view>
-               </block>
             </view>
-         </view>
-         <view class="drawer_content">
+            <view class="drawer_content">
                <image mode="widthFix" class="CartButton" src="/icons/cart button (1).svg"></image>
                <image class="CartDelete" src="/icons/delete.svg"  bindtap="handleDeleteCart" data-shopid="{{cart.shopid}}" data-price="{{os.price_sale}}">
                   <text class="CartDeleteText">清空</text>
                </image>
                <image class="Up" src="/icons/chevron-right-circle.svg"></image>
             </view>
+         </view>
       </view>
    </view>
-</view>
    <view class="tool_item">
       <view class="Price">
          <view class="TotPrice">€{{numberUtil.numberFormat(cart.totPrice)}}</view>
@@ -142,15 +143,15 @@
       <view class="DeliveryFee">配送费以订单为准</view>
    </view>
    <view class="GoToPay">
-   <block wx:if="{{cart.totPrice >= 50}}">
-      <navigator class="btn_buy" url="/pages/pay/index?shopid={{shopid}}">
-      去下单
-   </navigator>
-    </block>
-    <block wx:else>
-   <navigator class="btn_buymore" >
-     <view class="BuyMore">差€{{numberUtil.numberFormat(50-cart.totPrice)}}起送</view>
-   </navigator>
-  </block>
+      <block wx:if="{{cart.totPrice >= 50}}">
+         <navigator class="btn_buy" url="/pages/pay/index?shopid={{shopid}}">
+            去下单
+         </navigator>
+      </block>
+      <block wx:else>
+         <navigator class="btn_buymore">
+            <view class="BuyMore">差€{{numberUtil.numberFormat(50-cart.totPrice)}}起送</view>
+         </navigator>
+      </block>
    </view>
 </view>

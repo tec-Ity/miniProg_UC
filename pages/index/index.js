@@ -37,8 +37,8 @@ Page({
     }
   },
   onLoad: function(options) {
-    this.getSwiperList(); 
-    this.getCateList(); 
+    // this.getSwiperList(); 
+    // this.getCateList(); 
     this.getCitaList();
     this.bindAuthLocation();
     this.setData({
@@ -94,22 +94,15 @@ Page({
   buttonEnd: function (e) {
   },
 
-  getSwiperList(){
-    request({ url: "/home/swiperdata"  })
-    .then(result => {
-      this.setData({ 
-         swiperList: result
-             })
-    }) 
-  },
-  getCateList(){
-    request({ url: "/home/swiperdata" })
-    .then(result => {
-      this.setData({
-         catesList: result
-             })
-    })
-  },
+  // getSwiperList(){
+  //   request({ url: "/home/swiperdata"  })
+  //   .then(result => {
+  //     this.setData({ 
+  //        swiperList: result
+  //            })
+  //   }) 
+  // },
+
   getCitaList(){
     dns_request({ url: "/Citas" })   
     .then(result => {

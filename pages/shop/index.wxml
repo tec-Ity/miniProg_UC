@@ -6,8 +6,7 @@
                 <image class="ShopsPic" mode="aspectFill" src="{{dns+(item.img_url?item.img_url:'')}}"/>
                 <view class="littlebox" hover-class="boxHover">
                     <view class="t1">{{item.nome}}</view>
-                    <view class="t2">{{item.addr}}</view>
-                    <view class="t3">{{item.code}}</view>
+                    <!-- <view class="t2">{{item.addr}}</view> -->
                     <view class="triangular" hover-class="boxHover"></view>
                 </view>
             </view>
@@ -16,7 +15,7 @@
         </view>
 </scroll-view>
 
-<view class="btn_Suspension" bindtap="btn_Suspension_click" catchtouchmove="buttonMove" bindtouchstart="buttonStart" bindtouchend="buttonEnd" style="top:{{buttonTop}}px;left:{{buttonLeft}}px;">
+<!-- <view class="btn_Suspension" bindtap="btn_Suspension_click" catchtouchmove="buttonMove" bindtouchstart="buttonStart" bindtouchend="buttonEnd" style="top:{{buttonTop}}px;left:{{buttonLeft}}px;">
    <image class="Suspension_logo" src="/icons/cart.svg"></image>
    <view wx:if="{{corner_data==0}}"></view>
    <view wx:else>
@@ -24,4 +23,4 @@
          <text>{{corner_data}}</text>
       </view>
    </view>
-</view>
+</view> -->
