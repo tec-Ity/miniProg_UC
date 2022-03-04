@@ -199,8 +199,7 @@ page {
 
 .AddressCh {
   position: absolute;
-  width: 108rpx;
-  height: 28rpx;
+
   left: 83rpx;
   top: 423rpx;
   font-family: PingFang SC;
@@ -211,7 +210,7 @@ page {
   display: flex;
   align-items: center;
   color: #1D1D38;
-  opacity: 0.5;
+
 }
 
 .Address {
@@ -235,10 +234,9 @@ page {
 
 .AddressCode {
   position: absolute;
-  width: 156rpx;
-  height: 40rpx;
-  left: 568rpx;
-  top: 213px;
+
+  left: 83rpx;
+  top: 468rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;
@@ -251,10 +249,9 @@ page {
 
 .ReceiverCh {
   position: absolute;
-  width: 108rpx;
-  height: 40rpx;
+
   left: 82rpx;
-  top: 468rpx;
+  top: 520rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;
@@ -263,7 +260,7 @@ page {
   display: flex;
   align-items: center;
   color: #1D1D38;
-  opacity: 0.5;
+ 
 }
 
 .ReceiverName {
@@ -284,10 +281,9 @@ page {
 
 .ReceiverNum {
   position: absolute;
-  width: 190rpx;
-  height: 36rpx;
-  right: 68rpx;
-  top: 473rpx;
+
+  left: 83rpx;
+  top: 575rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;

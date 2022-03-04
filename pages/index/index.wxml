@@ -8,8 +8,8 @@
         <view class="square">中间slot</view>
       </view>
     </navigation-bar>
-    <image src="/icons/location.svg" class="Location"></image>
-    <image src="/icons/logo.svg" class="Logo"></image>
+    <image src="https://media.unioncityitaly.com/location.svg" class="Location"></image>
+    <image src="https://media.unioncityitaly.com/logo.svg" class="Logo"></image>
     <SearchInput></SearchInput>
   </view>
 
@@ -28,7 +28,7 @@
       </view>
     </view>
   </view>
-  <image src="/icons/bgTop (1).svg" class="bgTop"></image>
+  <image src="https://media.unioncityitaly.com/bgTop (1).svg" class="bgTop"></image>
   <view class="index_swiper">
     <swiper autoplay indicator-dots circular>
       <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
@@ -61,7 +61,7 @@
     <view class="BlankBox1"></view>
   </view>
   <!-- <view class="btn_Suspension" bindtap="btn_Suspension_click" catchtouchmove="buttonMove" bindtouchstart="buttonStart" bindtouchend="buttonEnd" style="top:{{buttonTop}}px;left:{{buttonLeft}}px;">
-    <image class="Suspension_logo" src="/icons/cart.svg"></image>
+    <image class="Suspension_logo" src="https://media.unioncityitaly.com/cart.svg"></image>
     <view wx:if="{{corner_data==0}}"></view>
     <view wx:else>
       <view class="cornorMark">
@@ -74,24 +74,24 @@
   </navigator>
 
   <view class="festival"></view>
-  <image class="home_pic_activity" mode="widthFix" src="../../icons/activitySmall.png" />
-  <!-- <image class="home_ads1" mode="widthFix" src="../../icons/广告1.png" />
-  <image class="home_ads2" mode="widthFix" src="../../icons/广告2.png" />
-  <image class="home_ads3" mode="widthFix" src="../../icons/广告3.png" />
-  <image class="home_ads4" mode="widthFix" src="../../icons/广告4.png" />
+  <image class="home_pic_activity" mode="widthFix" src="https://media.unioncityitaly.com/activitySmall.png" />
+  <!-- <image class="home_ads1" mode="widthFix" src="https://media.unioncityitaly.com/广告1.png" />
+  <image class="home_ads2" mode="widthFix" src="https://media.unioncityitaly.com/广告2.png" />
+  <image class="home_ads3" mode="widthFix" src="https://media.unioncityitaly.com/广告3.png" />
+  <image class="home_ads4" mode="widthFix" src="https://media.unioncityitaly.com/广告4.png" />
   <view class="CategoryBox">
     <view class="BlankBox5"></view>
     <view class="h4">货品丰富</view>
     <view class="h5">我们的产品贼多</view>
     <view class="sku"></view>
     <navigator>
-      <image class="cate1" mode="widthFix" src="../../icons/categ1%20(2).svg" />
-      <image class="cate2" mode="widthFix" src="../../icons/categ2%20(1).svg" />
-      <image class="cate3" mode="widthFix" src="../../icons/categ3%20(1).svg" />
-      <image class="cate4" mode="widthFix" src="../../icons/categ4%20(1).svg" />
-      <image class="cate5" mode="widthFix" src="../../icons/categ5%20(1).svg" />
-      <image class="cate6" mode="widthFix" src="../../icons/categ6%20(1).svg" />
-      <image class="cate7" mode="widthFix" src="../../icons/categ7%20(2).svg" />
+      <image class="cate1" mode="widthFix" src="https://media.unioncityitaly.com/categ1%20(2).svg" />
+      <image class="cate2" mode="widthFix" src="https://media.unioncityitaly.com/categ2%20(1).svg" />
+      <image class="cate3" mode="widthFix" src="https://media.unioncityitaly.com/categ3%20(1).svg" />
+      <image class="cate4" mode="widthFix" src="https://media.unioncityitaly.com/categ4%20(1).svg" />
+      <image class="cate5" mode="widthFix" src="https://media.unioncityitaly.com/categ5%20(1).svg" />
+      <image class="cate6" mode="widthFix" src="https://media.unioncityitaly.com/categ6%20(1).svg" />
+      <image class="cate7" mode="widthFix" src="https://media.unioncityitaly.com/categ7%20(2).svg" />
     </navigator>
   </view>
   <view class="GCBox">
@@ -101,9 +101,9 @@
 
     <swiper class="swiperPicsBox" autoplay indicator-dots circular>
       <swiper-item>
-        <image class="swiperPic1" mode="widthFix" src="../../icons/轮播图1.png"></image>
-        <image class="swiperPic2" mode="widthFix" src="../../icons/轮播图2.png"></image>
-        <image class="swiperPic3" mode="widthFix" src="../../icons/轮播图3.png"></image>
+        <image class="swiperPic1" mode="widthFix" src="https://media.unioncityitaly.com/轮播图1.png"></image>
+        <image class="swiperPic2" mode="widthFix" src="https://media.unioncityitaly.com/轮播图2.png"></image>
+        <image class="swiperPic3" mode="widthFix" src="https://media.unioncityitaly.com/轮播图3.png"></image>
       </swiper-item>
     </swiper>
   </view>
@@ -113,14 +113,14 @@
     <view class="h8">加入我们</view>
     <view class="h9">加盟绿城</view>
   </view>
-  <image class="shakehand" mode="widthFix" src="../../icons/shakehand.svg"></image>
+  <image class="shakehand" mode="widthFix" src="https://media.unioncityitaly.com/shakehand.svg"></image>
   <view class="AppBox">
     <view class="BlankBox2"></view>
     <view class="h10">下载APP↗</view>
     <view class="h11">一站式送货到家</view>
   </view>
-  <image class="AppStore" mode="widthFix" src="../../icons/AppStoreBadge.svg"></image>
-  <image class="Google" mode="widthFix" src="../../icons/Google Play Badge.svg"></image> -->
-  <!-- <image class="appMockup" mode="widthFix" src="../../icons/appMockup.svg"></image> -->
-  <image mode="aspectFit" src="../../icons/bgBottom.svg" class="bgBottom"></image>
+  <image class="AppStore" mode="widthFix" src="https://media.unioncityitaly.com/AppStoreBadge.svg"></image>
+  <image class="Google" mode="widthFix" src="https://media.unioncityitaly.com/Google Play Badge.svg"></image> -->
+  <!-- <image class="appMockup" mode="widthFix" src="https://media.unioncityitaly.com/appMockup.svg"></image> -->
+  <image mode="aspectFit" src="https://media.unioncityitaly.com/bgBottom.svg" class="bgBottom"></image>
 </view>

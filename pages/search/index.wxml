@@ -25,7 +25,7 @@
 <view class="Address"></view>
 <view class="currentAddress">
   <view class="revice_address_row">
-    <image class="CurrentLocation" src="/icons/currentLocation.svg" mode="widthFix"></image>
+    <image class="CurrentLocation" src="https://media.unioncityitaly.com/currentLocation.svg" mode="widthFix"></image>
    <view class="address_btn"  wx:if="{{!address.userName}}" >
       <button bindtap="handleChooseAddress" type="primary" plain >当前定位</button>
     </view>
@@ -42,7 +42,7 @@
 <view class="divLine1"></view>
   <navigator></navigator>
 <view class="MyAddressDetail"></view>
-<image class="User" mode="widthFix" src="/icons/user (1).svg"></image>
+<image class="User" mode="widthFix" src="https://media.unioncityitaly.com/user (1).svg"></image>
 <view class="MyAddress">我的地址</view>
   <view class="AddressDetail">地址 邮编 城市 国家</view>
   <input class="ConsigneeDetail" value="{{inpValue}}" placeholder="收件人姓名 - 收件人电话号码" bindinput="handleInput"></input>

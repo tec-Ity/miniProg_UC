@@ -7,7 +7,7 @@ page {
   position: relative;
   margin-top: 56rpx;
   width: 748rpx;
-  height:300rpx;
+  height: 300rpx;
 }
 
 .MenuUser2 {
@@ -59,43 +59,25 @@ page {
 
 .AddressCh {
   position: absolute;
-  width: 300rpx;
-  height: 28rpx;
+  width: 100%;
   left: 89rpx;
   top: 72rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 22px;
+  /* line-height: 22px; */
   display: flex;
   align-items: center;
   color: #1D1D38;
-  opacity: 0.5;
 }
-.AddressText{
+
+.AddressText {
   /* display: flex; */
-  position: relative;
-  display: -webkit-box;  
-  -webkit-line-clamp: 1;  
-  overflow: hidden;  
-  text-overflow: ellipsis;  
-  -webkit-box-orient: vertical; 
-  word-break: break-all;  
-  left: 0rpx;
-  top: 0rpx;
-  width: 229rpx;
-  height: 30rpx;
-  font-family: PingFang SC;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-/* display: flex; */
-align-items: center;
-color: #1D1D38;
-opacity: 0.5;
+  width: 140rpx;
+
 }
+
 .Address {
   position: absolute;
   overflow: hidden;
@@ -117,10 +99,10 @@ opacity: 0.5;
 
 .AddressCode {
   position: absolute;
-  width: 260rpx;
+  width: 100%;
   height: 40rpx;
-  left: 441rpx;
-  top: 36px;
+  left: 89rpx;
+  top: 65px;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;
@@ -129,63 +111,50 @@ opacity: 0.5;
   display: flex;
   align-items: center;
   color: #1D1D38;
-}
-.AddressCodeText{
-  display: flex;
-  position: relative;
-  left: 16rpx;
-  top: 0rpx;
-  width: 240rpx;
-  height: 30rpx;
-  font-family: PingFang SC;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #1D1D38;
-opacity: 0.5;
-}
-.ReceiverCh {
-  position: absolute;
-  width: 477rpx;
-  height: 40rpx;
-  left: 90rpx;
-  top: 118rpx;
-  font-family: PingFang SC;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  color: #1D1D38;
-  opacity: 0.5;
 }
 
-.ReceiverName {
-  position: absolute;
-  width: 158rpx;
-  height: 38rpx;
-  right: 353rpx;
-  top: 121rpx;
+.AddressCodeText {
+  display: flex;
+  position: relative;
+  top: 0rpx;
+  width: 140rpx;
+  height: 30rpx;
   font-family: PingFang SC;
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   display: flex;
   align-items: center;
   color: #1D1D38;
+}
+
+.ReceiverCh {
+  position: absolute;
+  width: 100%;
+  height: 40rpx;
+  left: 90rpx;
+  top: 185rpx;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
+}
+
+.ReceiverText {
+  width: 140rpx;
 }
 
 .ReceiverNum {
   position: absolute;
-  width: 261rpx;
-  height: 36rpx; 
-  right: 34rpx;
-  top: 124rpx;
+  width: 100%;
+  height: 36rpx;
+  left: 89rpx;
+  top: 240rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;
@@ -195,29 +164,30 @@ opacity: 0.5;
   align-items: center;
   color: #1D1D38;
 }
-.PhoneText{
+
+.PhoneText {
   display: flex;
   position: relative;
   left: 0rpx;
   top: 0rpx;
-  width: 189rpx;
+  width: 140rpx;
   height: 30rpx;
   font-family: PingFang SC;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #1D1D38;
-opacity: 0.5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
 }
+
 .Union {
   display: flex;
   position: absolute;
   width: 42rpx;
   height: 40rpx;
-  top: 178rpx;
+  top: 290rpx;
   left: 31rpx;
 }
 
@@ -227,7 +197,7 @@ opacity: 0.5;
   width: 479rpx;
   height: 0rpx;
   left: 221rpx;
-  top: 201rpx;
+  top: 290rpx;
   color: #C0E57B;
   opacity: 0.5;
   border: 0.5rpx solid #C0E57B;
@@ -247,7 +217,7 @@ opacity: 0.5;
   width: 138rpx;
   height: 32rpx;
   left: 90rpx;
-  top: 189rpx;
+  top: 290rpx;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: 600;
@@ -258,13 +228,15 @@ opacity: 0.5;
   text-align: right;
   color: #1D1D38;
 }
-.ChooseDateBox{
+
+.ChooseDateBox {
   position: absolute;
   width: 488rpx;
   height: 28rpx;
   left: 92rpx;
   top: 254rpx;
 }
+
 .ChooseDate {
   position: absolute;
   width: 488rpx;
@@ -281,7 +253,8 @@ opacity: 0.5;
   color: #1D1D38;
   opacity: 0.5;
 }
-.GoButton{
+
+.GoButton {
   display: flex;
   position: relative;
   width: 60rpx;
@@ -291,16 +264,18 @@ opacity: 0.5;
   background-color: #C0E57B;
   border-radius: 30rpx;
 }
-.Shop1Box{
-  position:relative;
+
+.Shop1Box {
+  position: relative;
   margin-top: 20rpx;
 }
+
 .Shop1 {
   display: flex;
   position: absolute;
   width: 40rpx;
   left: 34rpx;
-  height:35rpx
+  height: 35rpx
 }
 
 .ShopCh {
@@ -332,7 +307,7 @@ opacity: 0.5;
 }
 
 .cart_main {
-padding-top:66rpx;
+  padding-top: 66rpx;
 }
 
 .CartsGroup {
@@ -355,11 +330,11 @@ padding-top:66rpx;
   left: 208rpx;
   top: 0rpx;
   font-family: PingFang SC;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-color: #1D1D38;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1D1D38;
 }
 
 .orderProdImg {
@@ -377,13 +352,13 @@ color: #1D1D38;
   position: absolute;
   left: 544rpx;
   font-family: PingFang SC;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #1D1D38;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
 }
 
 .orderProdPrice {
@@ -391,13 +366,13 @@ color: #1D1D38;
   position: absolute;
   left: 438rpx;
   font-family: PingFang SC;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #1D1D38;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1D1D38;
 }
 
 .orderProdTotPrice {
@@ -412,11 +387,10 @@ color: #1D1D38;
   display: flex;
   align-items: center;
   text-align: right;
-  color: #E47F10;  
+  color: #E47F10;
 }
 
-.Line4
- {
+.Line4 {
   display: flex;
   position: absolute;
   width: 652rpx;
@@ -426,8 +400,7 @@ color: #1D1D38;
   border: 0.5rpx solid #C0E57B;
 }
 
-.Line5
- {
+.Line5 {
   display: flex;
   position: absolute;
   width: 652rpx;
@@ -436,12 +409,13 @@ color: #1D1D38;
   top: 1116rpx;
   border: 0.5rpx solid #C0E57B;
 }
+
 .DeliveryFeeText {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1rpx solid #C0E57B;
-  padding:20rpx;
+  padding: 20rpx;
   position: relative;
   width: 664rpx;
   left: 44rpx;
@@ -461,7 +435,7 @@ color: #1D1D38;
   justify-content: space-between;
   align-items: center;
   border-top: 1rpx solid #C0E57B;
-  padding:20rpx;
+  padding: 20rpx;
   position: relative;
   width: 664rpx;
   left: 40rpx;
@@ -513,7 +487,8 @@ color: #1D1D38;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   border-radius: 0px 28px 0px 0px;
 }
-.PlzChooseTime{
+
+.PlzChooseTime {
   font-size: 32rpx;
   font-weight: 600;
   display: flex;

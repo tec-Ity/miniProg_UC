@@ -44,8 +44,8 @@
       <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus==='sku'}}"></view>
       <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus==='sku'}}">
          <view class="drawer_content">
-            <image mode="widthFix" class="CartButton" src="/icons/cart button (1).svg"></image>
-            <image class='Down' bindtap='hideRule' src="/icons/x.svg"></image>
+            <image mode="widthFix" class="CartButton" src="https://media.unioncityitaly.com/cart button (1).svg"></image>
+            <image class='Down' bindtap='hideRule' src="https://media.unioncityitaly.com/x.svg"></image>
             <view class="skus_group" wx:for="{{currentSkus}}" wx:key="*this" data-index="{{index}}" data-id="{{item._id}}">
                <block wx:if="{{index!==0}}">
                   <view class="attrs_group" wx:for="{{item.attrs}}" wx:key="*this">
@@ -92,7 +92,7 @@
    <view class="btm_tool">
       <view class="tool_cart_item">
          <view class="cart_btn" bindtap="powerDrawer" data-statu="cart">
-            <image class="cartpic" mode="aspectFit" src="/icons/cart.svg"></image>
+            <image class="cartpic" mode="aspectFit" src="https://media.unioncityitaly.com/cart.svg"></image>
          </view>
          <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus==='cart'}}"></view>
          <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus==='cart'}}">
@@ -127,11 +127,11 @@
                </view>
             </view>
             <view class="drawer_content">
-               <image mode="widthFix" class="CartButton" src="/icons/cart button (1).svg"></image>
-               <image class="CartDelete" src="/icons/delete.svg"  bindtap="handleDeleteCart" data-shopid="{{cart.shopid}}" data-price="{{os.price_sale}}">
+               <image mode="widthFix" class="CartButton" src="https://media.unioncityitaly.com/cart button (1).svg"></image>
+               <image class="CartDelete" src="https://media.unioncityitaly.com/delete.svg"  bindtap="handleDeleteCart" data-shopid="{{cart.shopid}}" data-price="{{os.price_sale}}">
                   <text class="CartDeleteText">清空</text>
                </image>
-               <image class="Up" src="/icons/chevron-right-circle.svg"></image>
+               <image class="Up" src="https://media.unioncityitaly.com/chevron-right-circle.svg"></image>
             </view>
          </view>
       </view>

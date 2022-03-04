@@ -13,7 +13,7 @@ Page({
     topBarHeight:0,
     background:'#ffffff',
     color:'#000000',   
-    homeImage:'/icons/mapInsertLocation.svg',
+    homeImage:'https://media.unioncityitaly.com/mapInsertLocation.svg',
     border: true,
     loading: false,
     show: true,

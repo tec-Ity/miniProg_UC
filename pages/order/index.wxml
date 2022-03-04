@@ -1,44 +1,44 @@
-<image class="OrderCenter" src="/icons/iconOrder.svg"></image>
+<image class="OrderCenter" src="https://media.unioncityitaly.com/iconOrder.svg"></image>
 <view class="ConditionBox">
 <view class="OrderToBePaid" bindtap="toPay">
    <block wx:if="{{isPaid == false}}">
-      <image src="/icons/iconOrderToBePaid.svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderToBePaid.svg"></image>
    </block>
    <block wx:elif="{{isPaid == true}}" >
-      <image src="/icons/iconOrderToBePaidSelected.svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderToBePaidSelected.svg"></image>
    </block>
 </view>
 
 <view class="OrderInProcess" bindtap="toProcess">
    <block wx:if="{{isFinished == false}}">
-      <image src="/icons/iconOrderInProcess.svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderInProcess.svg"></image>
    </block>
    <block wx:elif="{{isFinished == true}}" >
-      <image src="/icons/iconOrderInProcessSelected.svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderInProcessSelected.svg"></image>
    </block>
 </view>
 
 <view class="OrderComplete" bindtap="toServiced">
    <block wx:if="{{isServiced == false}}">
-      <image src="/icons/iconOrderDelivered.svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderDelivered.svg"></image>
    </block>
    <block wx:elif="{{isServiced == true}}" >
-      <image src="/icons/iconOrderDeliveredSelected.svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderDeliveredSelected.svg"></image>
    </block>
 </view>
 
 <view class="OrderCancel" bindtap="toCanceled">
    <block wx:if="{{isCanceled == false}}">
-      <image src="/icons/iconOrderCancelled.svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderCancelled.svg"></image>
    </block>
    <block wx:elif="{{isCanceled == true}}" >
-      <image src="/icons/iconOrderCancelledSelected%20(1).svg"></image>
+      <image src="https://media.unioncityitaly.com/iconOrderCancelledSelected%20(1).svg"></image>
    </block>
 </view>
 </view>
 
 <view class="OrderProdsBox">
-   <image class="OrderProdsBoxToBePaid" src="/icons/iconOrderToBePaidSelected.svg"></image>
+   <image class="OrderProdsBoxToBePaid" src="https://media.unioncityitaly.com/iconOrderToBePaidSelected.svg"></image>
    <view class="Date">2021.7.23 15:30</view>
    <view class="Shop1">米蘭一號店</view>
    <view class="orderTotPrice">€{{order.total_sale}}</view>

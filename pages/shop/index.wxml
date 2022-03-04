@@ -16,7 +16,7 @@
 </scroll-view>
 
 <!-- <view class="btn_Suspension" bindtap="btn_Suspension_click" catchtouchmove="buttonMove" bindtouchstart="buttonStart" bindtouchend="buttonEnd" style="top:{{buttonTop}}px;left:{{buttonLeft}}px;">
-   <image class="Suspension_logo" src="/icons/cart.svg"></image>
+   <image class="Suspension_logo" src="https://media.unioncityitaly.com/cart.svg"></image>
    <view wx:if="{{corner_data==0}}"></view>
    <view wx:else>
       <view class="cornorMark">

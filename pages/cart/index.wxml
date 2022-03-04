@@ -1,9 +1,9 @@
  <view class="cart_content">
-<image class="CartPic" mode="widthFix" src="/icons/cart.svg"></image>
+<image class="CartPic" mode="widthFix" src="https://media.unioncityitaly.com/cart.svg"></image>
 <text class="CartText">购物车</text>
-<image class="ShopPic" mode="widthFix" src="/icons/shopConsegna.svg"></image>
+<image class="ShopPic" mode="widthFix" src="https://media.unioncityitaly.com/shopConsegna.svg"></image>
    <view class="cart_title">一号店</view>
-   <image class="CartDelete" src="/icons/delete.svg" mode="widthFix" bindtap="handleDeleteCart"  data-shopid="{{cart.shopid}}"></image>
+   <image class="CartDelete" src="https://media.unioncityitaly.com/delete.svg" mode="widthFix" bindtap="handleDeleteCart"  data-shopid="{{cart.shopid}}"></image>
       <navigator url="/pages/category/index" class="goToPay">进入店铺</navigator>
  </view>
    
@@ -47,7 +47,7 @@
     <view class="bottomfixed">  
       <view class="inner">  
         <view class="chkAll" bindtap="bindSelectAll">
-        <image class="allselect" src="{{selectAllStatus?'/icons/check-circle.svg':'/icons/orderStatueCanceledGrey.svg'}}" /> 
+        <image class="allselect" src="{{selectAllStatus?'https://media.unioncityitaly.com/check-circle.svg':'https://media.unioncityitaly.com/orderStatueCanceledGrey.svg'}}" /> 
           <text>全选</text>  
         </view>  
         <view class="total">合计：<em>￥{{totalMoney}}</em></view>  

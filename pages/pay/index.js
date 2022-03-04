@@ -190,7 +190,14 @@ Page({
     const obj = {
       Shop: cart.shopid,
       OrderProds,
-      type_ship: 0
+      type_ship: 1,
+      ship_info:{
+        Cita_code:'PO',
+        address:this.data.address,
+        postcode:this.data.addresscode,
+        Client_nome:this.data.receiver,
+        phone:this.data.receivernum,
+      }
     }
     const token = wx.getStorageSync('token')
     const header = {

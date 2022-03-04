@@ -9,7 +9,18 @@
   left: 20rpx;
   z-index: 10002;
 }
-
+.ShopsPic{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #C0E57B;
+  width: 688rpx; 
+  height: 301rpx;
+  border-radius: 40rpx 0 0 0;
+  position: absolute;
+  top: 20rpx;
+  left: 18rpx;
+    }
 .boxAfter {
   width: 700rpx;
   height: 300rpx;

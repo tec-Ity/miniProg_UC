@@ -1,7 +1,7 @@
 <view class="revice_address_row">
    <view class="address_btn"  wx:if="{{!address.userName}}" >
       <!-- <button bindtap="handleChooseAddress" >配送至: -->
-        <!-- <image class="mapInsertLocation" mode="scaleToFill" src="../../icons/mapInsertLocation.svg"></image> -->
+        <!-- <image class="mapInsertLocation" mode="scaleToFill" src="https://media.unioncityitaly.com/mapInsertLocation.svg"></image> -->
         <navigator class="addressnavigator" url="/pages/search/index"> 配送至: </navigator>
       <!-- </button> -->
     </view>

@@ -16,14 +16,14 @@
 
 <view class="User_ContactInfo">
 <view class="User">昵称</view>
-<image class="RightArrow1" mode="widthFix" src="/icons/right-arrow.svg"></image>
-<image class="User_Pic" src="/icons/user.svg"></image>
+<image class="RightArrow1" mode="widthFix" src="https://media.unioncityitaly.com/right-arrow.svg"></image>
+<image class="User_Pic" src="https://media.unioncityitaly.com/user.svg"></image>
 <input class="UserName" value="{{inpValue}}" placeholder="GREENCITY" bindinput="handleInput"></input>
 <view class="divLine4"></view>
 <view class="Account">账号</view>
-<image class="Email_Pic" src="/icons/emailIcon.svg"></image>
+<image class="Email_Pic" src="https://media.unioncityitaly.com/emailIcon.svg"></image>
 <input class="Email" value="{{inpValue}}" placeholder="GREENCITY@GMAIL.COM" bindinput="handleInput"></input>
-<image class="Phone_Pic" src="/icons/phoneIcon.svg"></image>
+<image class="Phone_Pic" src="https://media.unioncityitaly.com/phoneIcon.svg"></image>
 <wxs module="tools" src="../../sub/subutil.wxs"></wxs>
 <view class="modification-phone">
   <view class="shu">请输入验证码</view>
@@ -50,9 +50,9 @@
 
 <view class="MyAddress">
 <view class="Address">我的地址</view>
-<!-- <image class="RightArrow2" mode="widthFix" src="/icons/right-arrow.svg"></image> -->
+<!-- <image class="RightArrow2" mode="widthFix" src="https://media.unioncityitaly.com/right-arrow.svg"></image> -->
 <button class="RightArrow2" bindtap="go" size="mini" hover-class="true">-></button>
-<image class="Pin_Pic" src="/icons/pin.svg"></image>
+<image class="Pin_Pic" src="https://media.unioncityitaly.com/pin.svg"></image>
 <view class="Detail_Address">GREENCITY - 0574 22219</view> 
 <view class="Detail_Address2">Via Gaetano de Castilia 10,20124,MI</view>
 <input class="HouseNum" value="{{inpValue}}" placeholder="门牌号，收货提示" bindinput="handleInput"></input>
